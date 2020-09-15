@@ -1,0 +1,73 @@
+<templateSet group="wechatCode-app.json-tabBar">
+  <template name="wxTabBar" value="&quot;tabBar&quot;: {&#10;        &quot;color&quot;: &quot;&quot;,&#10;        &quot;selectedColor&quot;: &quot;&quot;,&#10;        &quot;backgroundColor&quot;: &quot;&quot;,&#10;        &quot;position&quot;: &quot;bottom&quot;,&#10;        &quot;borderStyle&quot;: &quot;black&quot;,&#10;        &quot;list&quot;: [&#10;            {&#10;                &quot;pagePath&quot;: &quot;&quot;,&#10;                &quot;text&quot;: &quot;&quot;,&#10;                &quot;iconPath&quot;: &quot;&quot;,&#10;                &quot;selectedIconPath&quot;: &quot;&quot;&#10;            }&#10;        ]&#10;    }," description="tabBar: 如果小程序是一个多 tab 应用（客户端窗口的底部或顶部有 tab 栏可以切换页面），可以通过 tabBar 配置项指定 tab 栏的表现，以及 tab 切换时显示的对应页面。" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
+  <template name="wxColor" value="&quot;color&quot;:&quot;$End$&quot;" description="tabBar: tab 上的文字默认颜色，仅支持十六进制颜色" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="End" expression="" defaultValue="&quot;#ffffff&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
+  <template name="wxSelectedColor" value="&quot;selectedColor&quot;:&quot;$End$&quot;" description="tabBar: tab 上的文字选中时的颜色，仅支持十六进制颜色" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="End" expression="" defaultValue="&quot;#ffffff&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
+  <template name="wxBackgroundColor" value="&quot;backgroundColor&quot;:&quot;$End$&quot;" description="tabBar: tab 的背景色，仅支持十六进制颜色" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="End" expression="" defaultValue="&quot;#ffffff&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
+  <template name="wxBorderStyle" value="&quot;borderStyle&quot;:&quot;$End$&quot;" description="tabBar: tabbar 上边框的颜色， 仅支持 black / white" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="End" expression="" defaultValue="&quot;black&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
+  <template name="wxList" value="&quot;list&quot;: [{$End$}]" description="tabBar: tab 的列表，详见 list 属性说明，最少 2 个、最多 5 个 tab" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="End" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
+  <template name="wxPosition" value="&quot;position&quot;:&quot;$End$&quot;" description="tabBar: tabBar 的位置，仅支持 bottom / top" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="End" expression="" defaultValue="&quot;bottom&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
+  <template name="wxCustom" value="&quot;custom&quot;:&quot;$End$&quot;" description="tabBar: 自定义 tabBar" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="End" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
+  <template name="wxPagePath" value="&quot;pagePath&quot;:&quot;$End$&quot;" description="tab:页面路径，必须在 pages 中先定义" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="End" expression="" defaultValue="&quot;pages/index/home&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
+  <template name="wxText" value="&quot;text&quot;:&quot;$End$&quot;" description="tab:tab 上按钮文字" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="End" expression="" defaultValue="&quot;输入tab的标题&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
+  <template name="wxIconPath" value="&quot;iconPath&quot;:&quot;$End$&quot;" description="tab:图片路径，icon 大小限制为 40kb，建议尺寸为 81px * 81px，不支持网络图片。 当 position 为 top 时，不显示 icon。" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="End" expression="" defaultValue="&quot;images/nav/home-off.png&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
+  <template name="wxSelectedIconPath" value="&quot;selectedIconPath&quot;:&quot;$End$&quot;" description="tab:图片路径，icon 大小限制为 40kb，建议尺寸为 81px * 81px，不支持网络图片。 当 position 为 top 时，不显示 icon。" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="End" expression="" defaultValue="&quot;images/nav/home-off.png&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
+</templateSet>

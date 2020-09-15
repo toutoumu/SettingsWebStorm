@@ -1,0 +1,8 @@
+<templateSet group="Flutter">
+  <template name="asset" value="Image.asset(&quot;$asset$&quot;)," description="Image.asset(&quot;name&quot;)," toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="asset" expression="" defaultValue="&quot;asset&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="DART_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

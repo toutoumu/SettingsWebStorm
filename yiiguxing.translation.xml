@@ -1,0 +1,42 @@
+<application>
+  <component name="AppStorage">
+    <histories>
+      <item value="staging" />
+      <item value="距离" />
+      <item value="change Origin" />
+      <item value="resume Registration Time" />
+      <item value="get Ticket" />
+      <item value="else" />
+      <item value="定位" />
+      <item value="target" />
+      <item value="avatar" />
+      <item value="scoped" />
+      <item value="An example regular attribute applicable to any tag" />
+      <item value="An example directive located by an offset in the file relative to web-types.json." />
+      <item value="引号" />
+      <item value="swiper" />
+      <item value="eslint" />
+      <item value="opacity" />
+      <item value="logs" />
+      <item value="confirm" />
+      <item value="管养单位" />
+      <item value="单位名称" />
+      <item value="遗弃" />
+      <item value="垂直" />
+      <item value="improtent" />
+      <item value="author" />
+      <item value="justify" />
+    </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="11" />
+        <entry key="ENGLISH" value="12" />
+        <entry key="CATALAN" value="1" />
+        <entry key="VIETNAMESE" value="1" />
+      </map>
+    </option>
+  </component>
+  <component name="Settings">
+    <option name="ignoreRegExp" value="" />
+  </component>
+</application>

@@ -1,0 +1,41 @@
+<templateSet group="Vue-Script">
+  <template name="vdispatch" value="this.$store.dispatch('$actionName$', $payload$)" description="store dispatch" toReformat="false" toShortenFQNames="true">
+    <variable name="actionName" expression="" defaultValue="&quot;actionName&quot;" alwaysStopAt="true" />
+    <variable name="payload" expression="" defaultValue="&quot;payload&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="VUE_COMPONENT_DESCRIPTOR" value="true" />
+    </context>
+  </template>
+  <template name="vcommit" value="this.$store.commit('$mutationName$', $payload$)" description="store commit" toReformat="false" toShortenFQNames="true">
+    <variable name="mutationName" expression="" defaultValue="&quot;mutationName&quot;" alwaysStopAt="true" />
+    <variable name="payload" expression="" defaultValue="&quot;payload&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="VUE_COMPONENT_DESCRIPTOR" value="true" />
+    </context>
+  </template>
+  <template name="vrouterToPath" value="// 带查询参数，变成 /path?paramName=param&#10;this.$router.push({ path: '$path$', query: { $paramName$: '$param$' } });" description="导航到RouterPath带参数" toReformat="false" toShortenFQNames="true">
+    <variable name="path" expression="" defaultValue="&quot;path&quot;" alwaysStopAt="true" />
+    <variable name="paramName" expression="" defaultValue="&quot;paramName&quot;" alwaysStopAt="true" />
+    <variable name="param" expression="" defaultValue="&quot;参数值&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="VUE_COMPONENT_DESCRIPTOR" value="true" />
+    </context>
+  </template>
+  <template name="vrouterToName" value="// -&gt; /name/param&#10;this.$router.push({ name: '$name$', params: { $paramName$:'$param$' } })" description="导航到RouteName带参数" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="&quot;组件名称&quot;" alwaysStopAt="true" />
+    <variable name="paramName" expression="" defaultValue="&quot;paramName&quot;" alwaysStopAt="true" />
+    <variable name="param" expression="" defaultValue="&quot;参数值&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="VUE_COMPONENT_DESCRIPTOR" value="true" />
+    </context>
+  </template>
+  <template name="vrouterConfig" value="{&#10;&#9;&#9;path: '/$path$/$param$',&#10;&#9;&#9;name: '$name$',&#10;&#9;&#9;component: $component$&#10;&#9;}," description="配置静态路由" toReformat="false" toShortenFQNames="true">
+    <variable name="path" expression="" defaultValue="&quot;路径&quot;" alwaysStopAt="true" />
+    <variable name="param" expression="" defaultValue="&quot;:参数名称(必须要冒号)&quot;" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="&quot;路由名称&quot;" alwaysStopAt="true" />
+    <variable name="component" expression="" defaultValue="&quot;组件名称&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="VUE_COMPONENT_DESCRIPTOR" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,29 @@
+<templateSet group="Vue关键字">
+  <template name="component" value="Vue.component('$NAME$',{&#10;    template:'$END$'&#10;})" description="定义组件component" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;组件名称&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="VUE_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="required" value="required" description="required" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="VUE_COMPONENT_DESCRIPTOR" value="true" />
+    </context>
+  </template>
+  <template name="validator" value="validator" description="属性验证方法validator" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="VUE_COMPONENT_DESCRIPTOR" value="true" />
+      <option name="VUE_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="props" value="props" description="props" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="VUE_COMPONENT_DESCRIPTOR" value="true" />
+    </context>
+  </template>
+  <template name="components" value="components:{$END$}," description="组件用到的其他组件" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="VUE_COMPONENT_DESCRIPTOR" value="true" />
+    </context>
+  </template>
+</templateSet>
