@@ -272,6 +272,7 @@
     <keyboard-shortcut first-keystroke="shift insert" />
     <keyboard-shortcut first-keystroke="meta v" />
   </action>
+  <action id="Terminal.SmartCommandExecution.Debug" />
   <action id="android.deploy.ApplyChanges">
     <keyboard-shortcut first-keystroke="ctrl meta r" />
   </action>
