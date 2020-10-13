@@ -4,7 +4,7 @@
     <property name="created">2020-07-09T12:37:32</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2020.1.1.0.0</property>
-    <property name="modified">2020-09-15T15:04:40</property>
+    <property name="modified">2020-10-13T17:21:31</property>
     <property name="originalScheme">One Dark vivid</property>
   </metaInfo>
   <console-font>
@@ -1359,6 +1359,7 @@
     </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
+        <option name="FOREGROUND" value="f9ff48" />
         <option name="BACKGROUND" value="3b514d" />
         <option name="FONT_TYPE" value="1" />
       </value>
