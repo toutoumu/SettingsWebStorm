@@ -8,6 +8,7 @@
       <mapping pattern="mock" type="PLAIN_TEXT" />
       <mapping pattern="信鸽集成" type="PLAIN_TEXT" />
       <mapping pattern="emoji_text" type="PLAIN_TEXT" />
+      <mapping pattern="registration" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="at_text" type="PLAIN_TEXT" />
       <mapping pattern="短视频.md" type="PLAIN_TEXT" />
