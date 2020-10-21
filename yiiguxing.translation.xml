@@ -1,6 +1,11 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="中介机构" />
+      <item value="人才服务市场" />
+      <item value="中介" />
+      <item value="人力" />
+      <item value="人才" />
       <item value="company" />
       <item value="企业" />
       <item value="字典" />
@@ -43,8 +48,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="24" />
-        <entry key="ENGLISH" value="25" />
+        <entry key="CHINESE" value="29" />
+        <entry key="ENGLISH" value="29" />
         <entry key="CATALAN" value="1" />
         <entry key="VIETNAMESE" value="1" />
       </map>
