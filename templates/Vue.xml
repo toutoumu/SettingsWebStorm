@@ -4,8 +4,9 @@
     <variable name="Stylus" expression="" defaultValue="&quot;scss&quot;" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="vaction" value="actions: {&#10; $updateValue$({commit}, $payload$) {&#10;  commit($updateValue$, $payload$);&#10; }&#10;}" description="Vuex action" toReformat="true" toShortenFQNames="true">
-    <variable name="updateValue" expression="" defaultValue="&quot;updateValue&quot;" alwaysStopAt="true" />
+  <template name="vaction" value="actions: {&#10; $actionName$({commit}, $payload$) {&#10;  commit($updateValue$, $payload$);&#10; }&#10;}" description="Vuex action" toReformat="true" toShortenFQNames="true">
+    <variable name="actionName" expression="" defaultValue="&quot;action名称&quot;" alwaysStopAt="true" />
+    <variable name="updateValue" expression="" defaultValue="&quot;'mutations的名称'&quot;" alwaysStopAt="true" />
     <variable name="payload" expression="" defaultValue="&quot;payload&quot;" alwaysStopAt="true" />
     <context>
       <option name="VUE_SCRIPT" value="true" />
