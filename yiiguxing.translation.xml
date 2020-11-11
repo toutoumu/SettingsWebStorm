@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Jx List" />
       <item value="middlewares" />
       <item value="recruit" />
       <item value="offline Job Fair" />
@@ -50,7 +51,6 @@
       <item value="logs" />
       <item value="confirm" />
       <item value="管养单位" />
-      <item value="单位名称" />
     </histories>
     <option name="languageScores">
       <map>
