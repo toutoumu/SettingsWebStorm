@@ -3,7 +3,7 @@
     <property name="created">2020-11-19T11:17:14</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2020.2.3.0.0</property>
-    <property name="modified">2020-11-19T11:23:04</property>
+    <property name="modified">2020-11-19T15:26:09</property>
     <property name="originalScheme">One Dark Vivid</property>
   </metaInfo>
   <colors>
@@ -510,7 +510,7 @@
     </option>
     <option name="DEFAULT_BLOCK_COMMENT">
       <value>
-        <option name="FOREGROUND" value="5c6370" />
+        <option name="FOREGROUND" value="6a9955" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_NAME">
@@ -533,7 +533,7 @@
     </option>
     <option name="DEFAULT_DOC_COMMENT">
       <value>
-        <option name="FOREGROUND" value="5c6370" />
+        <option name="FOREGROUND" value="6a9955" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG">
@@ -604,7 +604,7 @@
     </option>
     <option name="DEFAULT_LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="5c6370" />
+        <option name="FOREGROUND" value="6a9955" />
       </value>
     </option>
     <option name="DEFAULT_METADATA">
@@ -986,6 +986,7 @@
     </option>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
+        <option name="FOREGROUND" value="f9ff48" />
         <option name="BACKGROUND" value="353940" />
       </value>
     </option>
@@ -1921,6 +1922,7 @@
     <option name="SASS_VARIABLE" baseAttributes="DEFAULT_INSTANCE_FIELD" />
     <option name="SEARCH_RESULT_ATTRIBUTES">
       <value>
+        <option name="FOREGROUND" value="f9ff48" />
         <option name="BACKGROUND" value="42557b" />
         <option name="EFFECT_COLOR" value="457dff" />
       </value>
@@ -2037,6 +2039,7 @@
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
       <value>
+        <option name="FOREGROUND" value="f9ff48" />
         <option name="BACKGROUND" value="42557b" />
         <option name="EFFECT_COLOR" value="457dff" />
         <option name="ERROR_STRIPE_COLOR" value="457dff" />
@@ -2114,11 +2117,13 @@
     </option>
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
+        <option name="FOREGROUND" value="f9ff48" />
         <option name="BACKGROUND" value="353940" />
       </value>
     </option>
     <option name="WRITE_SEARCH_RESULT_ATTRIBUTES">
       <value>
+        <option name="FOREGROUND" value="f9ff48" />
         <option name="BACKGROUND" value="42557b" />
         <option name="EFFECT_COLOR" value="457dff" />
       </value>
