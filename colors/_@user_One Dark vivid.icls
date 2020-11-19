@@ -1,22 +1,11 @@
-<scheme name="_@user_One Dark vivid" version="142" parent_scheme="Darcula">
-  <option name="FONT_SCALE" value="1.0" />
+<scheme name="_@user_One Dark Vivid" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2020-07-09T12:37:32</property>
+    <property name="created">2020-11-19T11:17:14</property>
     <property name="ide">WebStorm</property>
-    <property name="ideVersion">2020.1.1.0.0</property>
-    <property name="modified">2020-10-13T17:21:31</property>
-    <property name="originalScheme">One Dark vivid</property>
+    <property name="ideVersion">2020.2.3.0.0</property>
+    <property name="modified">2020-11-19T11:23:04</property>
+    <property name="originalScheme">One Dark Vivid</property>
   </metaInfo>
-  <console-font>
-    <option name="EDITOR_FONT_NAME" value="Courier New" />
-    <option name="EDITOR_FONT_SIZE" value="15" />
-  </console-font>
-  <console-font>
-    <option name="EDITOR_FONT_NAME" value="Meslo LG S DZ for Powerline" />
-    <option name="EDITOR_FONT_SIZE" value="15" />
-  </console-font>
-  <option name="CONSOLE_LIGATURES" value="true" />
-  <option name="CONSOLE_LINE_SPACING" value="1.0" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="89ca78" />
     <option name="ANNOTATIONS_COLOR" value="a0a7b4" />
@@ -332,12 +321,6 @@
         <option name="FOREGROUND" value="e5c07b" />
       </value>
     </option>
-    <option name="CSS.CLASS_NAME">
-      <value>
-        <option name="FOREGROUND" value="61afef" />
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
     <option name="CSS.COLOR">
       <value>
         <option name="FOREGROUND" value="2bbac5" />
@@ -527,7 +510,7 @@
     </option>
     <option name="DEFAULT_BLOCK_COMMENT">
       <value>
-        <option name="FOREGROUND" value="699856" />
+        <option name="FOREGROUND" value="5c6370" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_NAME">
@@ -550,7 +533,7 @@
     </option>
     <option name="DEFAULT_DOC_COMMENT">
       <value>
-        <option name="FOREGROUND" value="699856" />
+        <option name="FOREGROUND" value="5c6370" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG">
@@ -561,12 +544,6 @@
     <option name="DEFAULT_DOC_COMMENT_TAG_VALUE">
       <value>
         <option name="FOREGROUND" value="d19a66" />
-      </value>
-    </option>
-    <option name="DEFAULT_DOC_MARKUP">
-      <value>
-        <option name="FOREGROUND" value="77b767" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="DEFAULT_ENTITY">
@@ -584,6 +561,12 @@
       <value>
         <option name="FOREGROUND" value="61afef" />
         <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="DEFAULT_GLOBAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="ef596f" />
+        <option name="BACKGROUND" value="282c34" />
       </value>
     </option>
     <option name="DEFAULT_IDENTIFIER">
@@ -621,7 +604,7 @@
     </option>
     <option name="DEFAULT_LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="699856" />
+        <option name="FOREGROUND" value="5c6370" />
       </value>
     </option>
     <option name="DEFAULT_METADATA">
@@ -665,7 +648,7 @@
     </option>
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">
       <value>
-        <option name="FOREGROUND" value="bbbbbb" />
+        <option name="FOREGROUND" value="e5c07b" />
         <option name="BACKGROUND" value="282c34" />
       </value>
     </option>
@@ -735,6 +718,31 @@
     <option name="EDITORCONFIG_VARIABLE">
       <value>
         <option name="FOREGROUND" value="ef596f" />
+      </value>
+    </option>
+    <option name="EJS_OPEN">
+      <value>
+        <option name="FOREGROUND" value="89ca78" />
+      </value>
+    </option>
+    <option name="EJS_OPEN_EQ">
+      <value>
+        <option name="FOREGROUND" value="e5c07b" />
+      </value>
+    </option>
+    <option name="EJS_OPEN_EQ_EQ">
+      <value>
+        <option name="FOREGROUND" value="e5c07b" />
+      </value>
+    </option>
+    <option name="EJS_OPEN_EQ_GENERATOR">
+      <value>
+        <option name="FOREGROUND" value="61afef" />
+      </value>
+    </option>
+    <option name="EJS_OPEN_FILTER">
+      <value>
+        <option name="FOREGROUND" value="e5c07b" />
       </value>
     </option>
     <option name="EL.BOUNDS">
@@ -944,6 +952,31 @@
         <option name="FOREGROUND" value="ef596f" />
       </value>
     </option>
+    <option name="HTTP_REQUEST_INPUT_FILE">
+      <value>
+        <option name="FOREGROUND" value="e5c07b" />
+      </value>
+    </option>
+    <option name="HTTP_REQUEST_MESSAGE_BODY">
+      <value>
+        <option name="FOREGROUND" value="2bbac5" />
+      </value>
+    </option>
+    <option name="HTTP_REQUEST_PARAMETER_NAME">
+      <value>
+        <option name="FOREGROUND" value="89ca78" />
+      </value>
+    </option>
+    <option name="HTTP_REQUEST_PARAMETER_VALUE">
+      <value>
+        <option name="FOREGROUND" value="2bbac5" />
+      </value>
+    </option>
+    <option name="HTTP_REQUEST_VARIABLE_BRACES">
+      <value>
+        <option name="FOREGROUND" value="e5c07b" />
+      </value>
+    </option>
     <option name="HYPERLINK_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="d55fde" />
@@ -953,7 +986,6 @@
     </option>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="f9ff48" />
         <option name="BACKGROUND" value="353940" />
       </value>
     </option>
@@ -1174,7 +1206,9 @@
       </value>
     </option>
     <option name="LESS_VARIABLE">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="ef596f" />
+      </value>
     </option>
     <option name="LINE_FULL_COVERAGE">
       <value>
@@ -1224,6 +1258,8 @@
     <option name="LOGCAT_ASSERT_OUTPUT">
       <value>
         <option name="FOREGROUND" value="ef596f" />
+        <option name="EFFECT_COLOR" value="ffffff" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="LOGCAT_DEBUG_OUTPUT">
@@ -1359,7 +1395,6 @@
     </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="f9ff48" />
         <option name="BACKGROUND" value="3b514d" />
         <option name="FONT_TYPE" value="1" />
       </value>
@@ -1883,14 +1918,10 @@
         <option name="FOREGROUND" value="d19a66" />
       </value>
     </option>
-    <option name="SASS_VARIABLE">
-      <value />
-    </option>
+    <option name="SASS_VARIABLE" baseAttributes="DEFAULT_INSTANCE_FIELD" />
     <option name="SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="f9ff48" />
         <option name="BACKGROUND" value="42557b" />
-        <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_COLOR" value="457dff" />
       </value>
     </option>
@@ -2006,9 +2037,7 @@
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="f9ff48" />
         <option name="BACKGROUND" value="42557b" />
-        <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_COLOR" value="457dff" />
         <option name="ERROR_STRIPE_COLOR" value="457dff" />
       </value>
@@ -2055,6 +2084,27 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
+    <option name="VELOCITY_DIRECTIVE">
+      <value>
+        <option name="FOREGROUND" value="e5c07b" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="VELOCITY_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="d55fde" />
+      </value>
+    </option>
+    <option name="VELOCITY_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="61afef" />
+      </value>
+    </option>
+    <option name="VELOCITY_SCRIPTING_BACKGROUND">
+      <value>
+        <option name="BACKGROUND" value="282c34" />
+      </value>
+    </option>
     <option name="WARNING_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="ff8c00" />
@@ -2064,15 +2114,12 @@
     </option>
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="f9ff48" />
         <option name="BACKGROUND" value="353940" />
       </value>
     </option>
     <option name="WRITE_SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="f9ff48" />
         <option name="BACKGROUND" value="42557b" />
-        <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_COLOR" value="457dff" />
       </value>
     </option>
