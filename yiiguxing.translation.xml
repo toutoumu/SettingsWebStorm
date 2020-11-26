@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="社区" />
       <item value="conscription" />
       <item value="征兵" />
       <item value="appointment" />
@@ -50,11 +51,10 @@
       <item value="An example directive located by an offset in the file relative to web-types.json." />
       <item value="引号" />
       <item value="swiper" />
-      <item value="eslint" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="41" />
+        <entry key="CHINESE" value="42" />
         <entry key="ENGLISH" value="42" />
         <entry key="CATALAN" value="1" />
         <entry key="VIETNAMESE" value="1" />
