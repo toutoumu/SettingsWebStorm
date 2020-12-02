@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="个性化服务" />
+      <item value="个性化" />
       <item value="公示" />
       <item value="小区" />
       <item value="neighbourhood" />
@@ -49,13 +51,11 @@
       <item value="定位" />
       <item value="target" />
       <item value="avatar" />
-      <item value="scoped" />
-      <item value="An example regular attribute applicable to any tag" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="45" />
-        <entry key="ENGLISH" value="45" />
+        <entry key="CHINESE" value="47" />
+        <entry key="ENGLISH" value="47" />
         <entry key="CATALAN" value="1" />
         <entry key="VIETNAMESE" value="1" />
       </map>
