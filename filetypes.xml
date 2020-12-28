@@ -17,6 +17,7 @@
       <mapping ext="flat" type="PLAIN_TEXT" />
       <mapping pattern="*.vue.html" type="Vue.js" />
       <mapping pattern="attrs_form" type="XML" />
+      <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <mapping pattern=".gitignore_global" type="Git file" />
     </extensionMap>
   </component>
