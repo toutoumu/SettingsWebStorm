@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Week" />
+      <item value="Weekend" />
+      <item value="registion" />
       <item value="js桥接" />
       <item value="Encrypt" />
       <item value="Personalized Service" />
@@ -48,23 +51,17 @@
       <item value="staging" />
       <item value="距离" />
       <item value="change Origin" />
-      <item value="resume Registration Time" />
-      <item value="get Ticket" />
-      <item value="else" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="49" />
-        <entry key="ENGLISH" value="49" />
+        <entry key="CHINESE" value="51" />
+        <entry key="ENGLISH" value="52" />
         <entry key="CATALAN" value="1" />
         <entry key="VIETNAMESE" value="1" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1609147813450" />
-  </component>
-  <component name="Settings">
-    <option name="ignoreRegExp" value="" />
+    <option name="lastTrimTime" value="1609729692199" />
   </component>
 </application>
