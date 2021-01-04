@@ -1,6 +1,13 @@
 <application>
   <component name="AppStorage">
+    <option name="newTranslationDialogX" value="520" />
+    <option name="newTranslationDialogY" value="383" />
+    <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="operational" />
+      <item value="操作" />
+      <item value="reduce" />
+      <item value="减" />
       <item value="condition" />
       <item value="高级" />
       <item value="advantage" />
@@ -47,15 +54,11 @@
       <item value="机构" />
       <item value="协议" />
       <item value="unit Id" />
-      <item value="equal" />
-      <item value="recruit Source Type" />
-      <item value="发现" />
-      <item value="光标" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="53" />
-        <entry key="ENGLISH" value="54" />
+        <entry key="CHINESE" value="55" />
+        <entry key="ENGLISH" value="55" />
         <entry key="CATALAN" value="1" />
         <entry key="VIETNAMESE" value="1" />
       </map>
