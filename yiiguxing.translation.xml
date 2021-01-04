@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="condition" />
       <item value="高级" />
       <item value="advantage" />
       <item value="Week" />
@@ -50,12 +51,11 @@
       <item value="recruit Source Type" />
       <item value="发现" />
       <item value="光标" />
-      <item value="staging" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="53" />
-        <entry key="ENGLISH" value="53" />
+        <entry key="ENGLISH" value="54" />
         <entry key="CATALAN" value="1" />
         <entry key="VIETNAMESE" value="1" />
       </map>
