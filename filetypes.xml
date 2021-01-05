@@ -14,6 +14,7 @@
       <mapping pattern="短视频.md" type="PLAIN_TEXT" />
       <mapping pattern="asdf" type="PLAIN_TEXT" />
       <mapping ext="dart2" type="PLAIN_TEXT" />
+      <mapping ext="bcmap" type="PLAIN_TEXT" />
       <mapping ext="flat" type="PLAIN_TEXT" />
       <mapping pattern="*.vue.html" type="Vue.js" />
       <mapping pattern="attrs_form" type="XML" />
