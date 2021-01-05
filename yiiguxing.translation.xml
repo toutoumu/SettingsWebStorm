@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="slice" />
       <item value="operational" />
       <item value="操作" />
       <item value="reduce" />
@@ -53,12 +54,11 @@
       <item value="组织" />
       <item value="机构" />
       <item value="协议" />
-      <item value="unit Id" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="55" />
-        <entry key="ENGLISH" value="55" />
+        <entry key="ENGLISH" value="56" />
         <entry key="CATALAN" value="1" />
         <entry key="VIETNAMESE" value="1" />
       </map>
