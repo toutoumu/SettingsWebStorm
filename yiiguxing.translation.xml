@@ -4,6 +4,8 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="百分比" />
+      <item value="违章停车" />
       <item value="Exclude" />
       <item value="unity" />
       <item value="Situation" />
@@ -52,12 +54,10 @@
       <item value="企业" />
       <item value="字典" />
       <item value="expcted" />
-      <item value="开通" />
-      <item value="organization" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="55" />
+        <entry key="CHINESE" value="56" />
         <entry key="ENGLISH" value="56" />
         <entry key="CATALAN" value="1" />
         <entry key="VIETNAMESE" value="1" />
@@ -66,5 +66,12 @@
   </component>
   <component name="Cache">
     <option name="lastTrimTime" value="1609729692199" />
+  </component>
+  <component name="Settings">
+    <option name="googleTranslateSettings">
+      <google-translate>
+        <option name="primaryLanguage" value="ESPERANTO" />
+      </google-translate>
+    </option>
   </component>
 </application>
