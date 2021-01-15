@@ -4,6 +4,8 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="persons" />
+      <item value="部门" />
       <item value="统计" />
       <item value="series" />
       <item value="百分比" />
@@ -52,13 +54,11 @@
       <item value="中介" />
       <item value="人力" />
       <item value="人才" />
-      <item value="company" />
-      <item value="企业" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="59" />
-        <entry key="ENGLISH" value="59" />
+        <entry key="CHINESE" value="61" />
+        <entry key="ENGLISH" value="61" />
         <entry key="CATALAN" value="1" />
         <entry key="ESPERANTO" value="2" />
         <entry key="VIETNAMESE" value="1" />
