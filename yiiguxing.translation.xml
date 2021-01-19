@@ -4,6 +4,8 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="周一" />
+      <item value="周日" />
       <item value="Pertition" />
       <item value="persons" />
       <item value="部门" />
@@ -52,13 +54,11 @@
       <item value="hint" />
       <item value="中介机构" />
       <item value="人才服务市场" />
-      <item value="中介" />
-      <item value="人力" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="61" />
-        <entry key="ENGLISH" value="62" />
+        <entry key="CHINESE" value="63" />
+        <entry key="ENGLISH" value="63" />
         <entry key="CATALAN" value="1" />
         <entry key="ESPERANTO" value="2" />
         <entry key="VIETNAMESE" value="1" />
