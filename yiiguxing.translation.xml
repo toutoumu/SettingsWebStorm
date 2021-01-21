@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="职业" />
       <item value="周一" />
       <item value="周日" />
       <item value="Pertition" />
@@ -53,12 +54,11 @@
       <item value="培训机构" />
       <item value="hint" />
       <item value="中介机构" />
-      <item value="人才服务市场" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="63" />
-        <entry key="ENGLISH" value="63" />
+        <entry key="CHINESE" value="65" />
+        <entry key="ENGLISH" value="65" />
         <entry key="CATALAN" value="1" />
         <entry key="ESPERANTO" value="2" />
         <entry key="VIETNAMESE" value="1" />
@@ -66,6 +66,6 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1610611975048" />
+    <option name="lastTrimTime" value="1611217687204" />
   </component>
 </application>
