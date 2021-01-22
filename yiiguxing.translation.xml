@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="comform" />
       <item value="审核" />
       <item value="职业" />
       <item value="周一" />
@@ -53,12 +54,11 @@
       <item value="institution" />
       <item value="Training institution" />
       <item value="培训机构" />
-      <item value="hint" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="66" />
-        <entry key="ENGLISH" value="66" />
+        <entry key="ENGLISH" value="67" />
         <entry key="CATALAN" value="1" />
         <entry key="ESPERANTO" value="2" />
         <entry key="VIETNAMESE" value="1" />
