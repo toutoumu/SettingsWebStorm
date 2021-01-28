@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="review" />
       <item value="comform" />
       <item value="审核" />
       <item value="职业" />
@@ -53,12 +54,11 @@
       <item value="Polygon" />
       <item value="institution" />
       <item value="Training institution" />
-      <item value="培训机构" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="66" />
-        <entry key="ENGLISH" value="67" />
+        <entry key="CHINESE" value="67" />
+        <entry key="ENGLISH" value="68" />
         <entry key="CATALAN" value="1" />
         <entry key="ESPERANTO" value="2" />
         <entry key="VIETNAMESE" value="1" />
@@ -66,6 +66,6 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1611217687204" />
+    <option name="lastTrimTime" value="1611796482766" />
   </component>
 </application>
