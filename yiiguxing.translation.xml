@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="我的" />
       <item value="census Register" />
       <item value="leader Address" />
       <item value="leader Birth Place" />
@@ -53,11 +54,10 @@
       <item value="appointment" />
       <item value="mine" />
       <item value="Jx List" />
-      <item value="middlewares" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="78" />
+        <entry key="CHINESE" value="79" />
         <entry key="ENGLISH" value="79" />
         <entry key="CATALAN" value="1" />
         <entry key="ESPERANTO" value="2" />
@@ -66,6 +66,6 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1612253820824" />
+    <option name="lastTrimTime" value="1614064702542" />
   </component>
 </application>
