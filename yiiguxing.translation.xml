@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="审批" />
       <item value="managment" />
       <item value="我的" />
       <item value="census Register" />
@@ -53,11 +54,10 @@
       <item value="conscription" />
       <item value="征兵" />
       <item value="appointment" />
-      <item value="mine" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="79" />
+        <entry key="CHINESE" value="80" />
         <entry key="ENGLISH" value="80" />
         <entry key="CATALAN" value="1" />
         <entry key="ESPERANTO" value="2" />
