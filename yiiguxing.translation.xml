@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="consult" />
       <item value="转让" />
       <item value="disband" />
       <item value="解散" />
@@ -53,12 +54,11 @@
       <item value="个性化服务" />
       <item value="个性化" />
       <item value="公示" />
-      <item value="小区" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="86" />
-        <entry key="ENGLISH" value="86" />
+        <entry key="ENGLISH" value="87" />
         <entry key="CATALAN" value="1" />
         <entry key="ESPERANTO" value="2" />
         <entry key="VIETNAMESE" value="1" />
@@ -66,6 +66,6 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1614064702542" />
+    <option name="lastTrimTime" value="1614577960120" />
   </component>
 </application>
