@@ -1,0 +1,31 @@
+<templateSet group="wechatCode-app.json-networkTimeout">
+  <template name="wxRequest" value="&quot;request&quot;:&quot;$End$&quot;" description="networkTimeout: wx.request 的超时时间，单位：毫秒。" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="End" expression="" defaultValue="&quot;60000&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
+  <template name="wxConnectSocket" value="&quot;connectSocket&quot;:&quot;$End$&quot;" description="networkTimeout: wx.connectSocket 的超时时间，单位：毫秒。" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="End" expression="" defaultValue="&quot;60000&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
+  <template name="wxUploadFile" value="&quot;uploadFile&quot;:&quot;$End$&quot;" description="networkTimeout: wx.uploadFile 的超时时间，单位：毫秒。" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="End" expression="" defaultValue="&quot;60000&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
+  <template name="wxDownloadFile" value="&quot;downloadFile&quot;:&quot;$End$&quot;" description="networkTimeout: wx.downloadFile 的超时时间，单位：毫秒。" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="End" expression="" defaultValue="&quot;60000&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
+  <template name="wxNetworkTimeout" value="&quot;networkTimeout&quot;: {&#10;          &quot;request&quot;: 10000,&#10;          &quot;connectSocket&quot;: 10000,&#10;          &quot;uploadFile&quot;: 10000,&#10;          &quot;downloadFile&quot;: 10000&#10;      }," description="networkTimeout: 各类网络请求的超时时间，单位均为毫秒。" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
+</templateSet>

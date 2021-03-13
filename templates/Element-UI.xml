@@ -1,0 +1,593 @@
+<templateSet group="Element-UI">
+  <template name="el-fade-in" value="transition name=&quot;el-fade-in&quot;&gt;&#10; &lt;div v-show=&quot;show&quot; class=&quot;transition-box&quot;&gt;.el-fade-in&lt;/div&gt;&#10;&lt;/transition&gt;" description="el fade in" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-fade-in:linear" value="transition name=&quot;el-fade-in-linear&quot;&gt;&#10; &lt;div v-show=&quot;show&quot; class=&quot;transition-box&quot;&gt;.el-fade-in-linear&lt;/div&gt;&#10;&lt;/transition&gt;" description="el fade in linear" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-zoom-in:center" value="transition name=&quot;el-zoom-in-center&quot;&gt;&#10; &lt;div v-show=&quot;show&quot; class=&quot;transition-box&quot;&gt;.el-zoom-in-center&lt;/div&gt;&#10;&lt;/transition&gt;" description="el zoom in center" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-zoom-in:top" value="transition name=&quot;el-zoom-in-top&quot;&gt;&#10; &lt;div v-show=&quot;show&quot; class=&quot;transition-box&quot;&gt;.el-zoom-in-top&lt;/div&gt;&#10;&lt;/transition&gt;" description="el zoom in top" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-zoom-in:bottom" value="transition name=&quot;el-zoom-in-bottom&quot;&gt;&#10; &lt;div v-show=&quot;show&quot; class=&quot;transition-box&quot;&gt;.el-zoom-in-bottom&lt;/div&gt;&#10;&lt;/transition&gt;" description="el zoom in bottom" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-collapse-transition" value="el-collapse-transition&gt;&#10; &lt;div v-show=&quot;show&quot;&gt;&#10;  &lt;div class=&quot;transition-box&quot;&gt;el-collapse-transition&lt;/div&gt;&#10;  &lt;div class=&quot;transition-box&quot;&gt;el-collapse-transition&lt;/div&gt;&#10; &lt;/div&gt;&#10;&lt;/el-collapse-transition&gt;" description="el collapse animation" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-row" value="el-row :gutter=&quot;$gutter$&quot;&gt;&#10; &lt;el-col :span=&quot;$span$&quot;&gt;$cont$&lt;/el-col&gt;&#10;&lt;/el-row&gt;" description="layout with row and col" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="gutter" expression="gutter between row" defaultValue="&quot;10&quot;" alwaysStopAt="true" />
+    <variable name="span" expression="col lines" defaultValue="&quot;6&quot;" alwaysStopAt="true" />
+    <variable name="cont" expression="cont" defaultValue="&quot;10&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-button" value="el-button type=&quot;$type$&quot;&gt;$buttonCont$&lt;/el-button&gt;" description="element button" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="type" expression="type" defaultValue="&quot;primary&quot;" alwaysStopAt="true" />
+    <variable name="buttonCont" expression="buttonCont" defaultValue="&quot;buttonCont&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-button-group" value="el-button-group&gt;&#10;  &lt;el-button type=&quot;primary&quot; icon=&quot;el-icon-arrow-left&quot;&gt;上一页&lt;/el-button&gt;&#10;  &lt;el-button type=&quot;primary&quot;&gt;下一页&lt;i class=&quot;el-icon-arrow-right el-icon--right&quot;&gt;&lt;/i&gt;&lt;/el-button&gt;&#10;&lt;/el-button-group&gt;" description="element button group" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-radio" value="el-radio v-model=&quot;$radio$&quot; label=&quot;$label$&quot;&gt;$radioCont$&lt;/el-radio&gt;" description="element radio" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="radio" expression="type" defaultValue="&quot;radio&quot;" alwaysStopAt="true" />
+    <variable name="label" expression="label" defaultValue="&quot;label&quot;" alwaysStopAt="true" />
+    <variable name="radioCont" expression="radioCont" defaultValue="&quot;radioCont&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-radio-group" value="el-radio-group v-model=&quot;$model$&quot;&gt;&#10;  &lt;el-radio :label=&quot;$label1$&quot;&gt;$cont1$&lt;/el-radio&gt;&#10;  &lt;el-radio :label=&quot;$label2$&quot;&gt;$cont2$&lt;/el-radio&gt;&#10;&lt;/el-radio-group&gt;" description="element radio group" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="model" expression="model" defaultValue="&quot;model&quot;" alwaysStopAt="true" />
+    <variable name="label1" expression="label1" defaultValue="&quot;label1&quot;" alwaysStopAt="true" />
+    <variable name="cont1" expression="cont1" defaultValue="&quot;cont1&quot;" alwaysStopAt="true" />
+    <variable name="label2" expression="label2" defaultValue="&quot;label2&quot;" alwaysStopAt="true" />
+    <variable name="cont2" expression="cont2" defaultValue="&quot;cont2&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-radio-button" value="el-radio-button label=&quot;$radioButtonCont$&quot;&gt;&lt;/el-radio-button&gt;" description="element radio button" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="radioButtonCont" expression="radioButtonCont" defaultValue="&quot;radioButtonCont&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-checkbox" value="el-checkbox v-model=&quot;$checkbox$&quot; &gt;$checkboxCont$&lt;/el-checkbox&gt;" description="element checkbox" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="checkbox" expression="type" defaultValue="&quot;checkbox&quot;" alwaysStopAt="true" />
+    <variable name="checkboxCont" expression="checkboxCont" defaultValue="&quot;checkboxCont&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-checkbox-group" value="el-checkbox-group v-model=&quot;$checkedCityList$&quot;&gt;&#10;  &lt;el-checkbox v-for=&quot;$city$ in $cityList$&quot; :label=&quot;$label$&quot; :key=&quot;$key$&quot;&gt;{{$cityCont$}}&lt;/el-checkbox&gt;&#10;&lt;/el-checkbox-group&gt;" description="element checkbox group" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="checkedCityList" expression="checkedCityList" defaultValue="&quot;checkedCityList&quot;" alwaysStopAt="true" />
+    <variable name="cityList" expression="cityList" defaultValue="&quot;cityList&quot;" alwaysStopAt="true" />
+    <variable name="city" expression="city" defaultValue="&quot;city&quot;" alwaysStopAt="true" />
+    <variable name="label" expression="label" defaultValue="&quot;label&quot;" alwaysStopAt="true" />
+    <variable name="key" expression="key" defaultValue="&quot;key&quot;" alwaysStopAt="true" />
+    <variable name="cityCont" expression="cityCont" defaultValue="&quot;cityCont&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-checkbox-button" value="el-checkbox-button :label=&quot;$checkboxLabel$&quot; :key=&quot;$checkboxKey$&quot; &gt;$checkboxCont$&lt;/el-checkbox-button&gt;" description="element checkbox button" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="checkboxLabel" expression="checkboxLabel" defaultValue="&quot;checkboxLabel&quot;" alwaysStopAt="true" />
+    <variable name="checkboxKey" expression="checkboxKey" defaultValue="&quot;checkboxKey&quot;" alwaysStopAt="true" />
+    <variable name="checkboxCont" expression="checkboxCont" defaultValue="&quot;checkboxCont&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-input" value="el-input v-model=&quot;$input$&quot; placeholder=&quot;$placeholder$&quot;&gt;&lt;/el-input&gt;" description="element input" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="input" expression="input" defaultValue="&quot;input&quot;" alwaysStopAt="true" />
+    <variable name="placeholder" expression="placeholder" defaultValue="&quot;placeholder&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-input:textarea" value="el-input type=&quot;textarea&quot; placeholder=&quot;$placeholder$&quot; v-model=&quot;$model$&quot;&gt;&lt;/el-input&gt;" description="element input textarea" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="placeholder" expression="placeholder" defaultValue="&quot;placeholder&quot;" alwaysStopAt="true" />
+    <variable name="model" expression="model" defaultValue="&quot;model&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-autocomplete" value="el-autocomplete class=&quot;inline-input&quot; v-model=&quot;$model$&quot; :fetch-suggestions=&quot;querySearch&quot; placeholder=&quot;$placeholder$&quot; @select=&quot;handleSelect&quot;&gt;&lt;/el-autocomplete&gt;" description="element input autocomplete" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="model" expression="&quot;model&quot;" defaultValue="&quot;model&quot;" alwaysStopAt="true" />
+    <variable name="placeholder" expression="&quot;placeholder&quot;" defaultValue="&quot;placeholder&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-input-number" value="el-input-number v-model=&quot;$model$&quot; @change=&quot;$handleChange$&quot; :min=&quot;$min$&quot; :max=&quot;$max$&quot; label=&quot;$label$&quot;&gt;&lt;/el-input-number&gt;" description="element input number" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="model" expression="" defaultValue="&quot;model&quot;" alwaysStopAt="true" />
+    <variable name="handleChange" expression="" defaultValue="&quot;handleChange&quot;" alwaysStopAt="true" />
+    <variable name="min" expression="" defaultValue="&quot;1&quot;" alwaysStopAt="true" />
+    <variable name="max" expression="" defaultValue="&quot;10&quot;" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="&quot;label&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-select" value="el-select v-model=&quot;$model$&quot; placeholder=&quot;$placeholder$&quot;&gt;&#10;&lt;el-option&#10;  v-for=&quot;$item$ in $optionsList$&quot;&#10;    :key=&quot;$item$.value&quot;&#10;    :label=&quot;$item$.label&quot;&#10;    :value=&quot;$item$.value&quot;&gt;&#10;  &lt;/el-option&gt;&#10;&lt;/el-select&gt;" description="element select" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="model" expression="" defaultValue="&quot;model&quot;" alwaysStopAt="true" />
+    <variable name="placeholder" expression="" defaultValue="&quot;placeholder&quot;" alwaysStopAt="true" />
+    <variable name="optionsList" expression="" defaultValue="&quot;optionsList&quot;" alwaysStopAt="true" />
+    <variable name="item" expression="" defaultValue="&quot;item&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-cascader" value="el-cascader&#10;  :options=&quot;$options$&quot;&#10;  v-model=&quot;$selectedOptions$&quot;&#10;  @change=&quot;$handleChange$&quot;&gt;&lt;/el-cascader&gt;" description="element cascader" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="options" expression="" defaultValue="&quot;options&quot;" alwaysStopAt="true" />
+    <variable name="selectedOptions" expression="" defaultValue="&quot;selectedOptions&quot;" alwaysStopAt="true" />
+    <variable name="handleChange" expression="" defaultValue="&quot;handleChange&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-switch" value="el-switch v-model=&quot;$value$&quot;active-color=&quot;$activeColor$&quot;inactive-color=&quot;$inactiveColor$&quot;&gt;&lt;/el-switch&gt;" description="element switch" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="value" expression="" defaultValue="&quot;true&quot;" alwaysStopAt="true" />
+    <variable name="activeColor" expression="" defaultValue="&quot;#13ce66&quot;" alwaysStopAt="true" />
+    <variable name="inactiveColor" expression="" defaultValue="&quot;#ff4949&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-slider" value="el-slider v-model=&quot;$model$&quot;&gt;&lt;/el-slider&gt;" description="element slider" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="model" expression="" defaultValue="&quot;30&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-time-select" value="el-time-select v-model=&quot;$value$&quot; :picker-options=&quot;{start: '$start$',step: '$step$',end: '$end$'}&quot; placeholder=&quot;$placeholder$&quot;&gt;&lt;/el-time-select&gt;" description="element time select" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="value" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="start" expression="" defaultValue="&quot;08:30&quot;" alwaysStopAt="true" />
+    <variable name="step" expression="" defaultValue="&quot;00:15&quot;" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="&quot;18:30&quot;" alwaysStopAt="true" />
+    <variable name="placeholder" expression="" defaultValue="&quot;time&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-time-picker" value="el-time-picker v-model=&quot;$value$&quot; :picker-options=&quot;{ selectableRange: '$start$ - $end$' }&quot; placeholder=&quot;$placeholder$&quot;&gt;&lt;/el-time-picker&gt;" description="element time picker" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="value" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="start" expression="" defaultValue="&quot;18:30:00&quot;" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="&quot;20:30:00&quot;" alwaysStopAt="true" />
+    <variable name="placeholder" expression="" defaultValue="&quot;time&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-date-picker" value="el-date-picker v-model=&quot;$value$&quot; type=&quot;date&quot; placeholder=&quot;$placeholder$&quot;&gt;&lt;/el-date-picker&gt;" description="element date picker" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="value" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="placeholder" expression="" defaultValue="&quot;time&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-date-picker:datetime" value="el-date-picker v-model=&quot;$value$&quot; type=&quot;datetime&quot; placeholder=&quot;$placeholder$&quot;&gt;&lt;/el-date-picker&gt;" description="element date picker" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="value" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="placeholder" expression="" defaultValue="&quot;time&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-upload" value="el-upload&#10;  class=&quot;upload-demo&quot;&#10;  action=&quot;https://www.demo.com/posts/&quot;&#10;  :on-preview=&quot;handlePreview(file)&quot;&#10;  :on-remove=&quot;handleRemove(file, fileList)&quot;&#10;  :before-remove=&quot;beforeRemove(files, fileList)&quot;&#10;  multiple&#10;  :limit=&quot;3&quot;&#10;  :on-exceed=&quot;handleExceed(files, fileList)&quot;&#10;  :file-list=&quot;[{name: 'name', url: 'url'}, {name: 'name2', url: 'url'}]&quot;&gt;&#10;  &lt;el-button size=&quot;small&quot; type=&quot;primary&quot;&gt;点击上传&lt;/el-button&gt;&#10;  &lt;div slot=&quot;tip&quot; class=&quot;el-upload__tip&quot;&gt;只能上传jpg/png文件，且不超过500kb&lt;/div&gt;&#10;&lt;/el-upload&gt;" description="element upload" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-upload:avatar" value="el-upload&#10;  class=&quot;avatar-uploader&quot;&#10;  action=&quot;https://www.dmeo.com/posts/&quot;&#10;  :show-file-list=&quot;false&quot;&#10;  :on-success=&quot;handleAvatarSuccess(res, file)&quot;&#10;  :before-upload=&quot;beforeAvatarUpload(file)&quot;&gt;&#10;  &lt;img v-if=&quot;imageUrl&quot; :src=&quot;imageUrl&quot; class=&quot;avatar&quot;&gt;&#10;  &lt;i v-else class=&quot;el-icon-plus avatar-uploader-icon&quot;&gt;&lt;/i&gt;&#10;&lt;/el-upload&gt;" description="element upload avatar" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-rate" value="el-rate v-model=&quot;value2&quot;&#10;  &gt;&lt;/el-rate&gt;" description="element rate" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-rate:colors" value="el-rate&#10;    v-model=&quot;value2&quot;&#10;    :colors=&quot;['#99A9BF', '#F7BA2A', '#FF9900']&quot;&gt;&#10;  &lt;/el-rate&gt;" description="element rate" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-rate:halfstar" value="el-rate&#10;  v-model=&quot;3.7&quot;&#10;  disabled&#10;  show-score&#10;  text-color=&quot;#ff9900&quot;&#10;  score-template=&quot;{value}&quot;&gt;&#10;&lt;/el-rate&gt;" description="element rate" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-color-picker" value="el-color-picker v-model=&quot;color1&quot;&gt;&lt;/el-color-picker&gt;" description="element color picker" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-transfer" value="el-transfer v-model=&quot;modelList&quot; :data=&quot;[{key: 1, label: '备选项1', disabled: false}, {key: 2, label: '备选项2', disabled: true}]&quot;&gt;&lt;/el-transfer&gt;" description="element transfer" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-transfer:search" value="el-transfer v-model=&quot;modelList&quot; :data=&quot;[{key: 1, label: '备选项1', disabled: false}, {key: 2, label: '备选项2', disabled: true}]&quot; filterable :filter-method=&quot;filterMethod&quot; filter-placeholder=&quot;请输入城市拼音&quot;&gt;&lt;/el-transfer&gt;" description="element transfer" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-form" value="el-form ref=&quot;form&quot; :model=&quot;form&quot; label-width=&quot;80px&quot;&gt;&#10;&#10;&lt;/el-form&gt;" description="element form" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-form:inline" value="el-form :inline=&quot;true&quot; :model=&quot;formInline&quot; class=&quot;demo-form-inline&quot;&gt;&#10;&#10;&lt;/el-form&gt;" description="element form inline" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-form-item:input" value="el-form-item label=&quot;活动名称&quot;&gt;&#10;  &lt;el-input v-model=&quot;form.name&quot;&gt;&lt;/el-input&gt;&#10;&lt;/el-form-item&gt;" description="element form item input" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-form-item:select" value="el-form-item label=&quot;活动区域&quot;&gt;&#10;  &lt;el-select v-model=&quot;form.region&quot; placeholder=&quot;请选择活动区域&quot;&gt;&#10;    &lt;el-option label=&quot;区域一&quot; value=&quot;shanghai&quot;&gt;&lt;/el-option&gt;&#10;    &lt;el-option label=&quot;区域二&quot; value=&quot;beijing&quot;&gt;&lt;/el-option&gt;&#10;  &lt;/el-select&gt;&#10;&lt;/el-form-item&gt;" description="element form item select" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-form-item:time" value="el-form-item label=&quot;活动时间&quot;&gt;&#10;&lt;el-col :span=&quot;11&quot;&gt;&#10;  &lt;el-date-picker type=&quot;date&quot; placeholder=&quot;选择日期&quot; v-model=&quot;form.date1&quot; style=&quot;width: 100%;&quot;&gt;&lt;/el-date-picker&gt;&#10;&lt;/el-col&gt;&#10;&lt;el-col class=&quot;line&quot; :span=&quot;2&quot;&gt;-&lt;/el-col&gt;&#10;&lt;el-col :span=&quot;11&quot;&gt;&#10;  &lt;el-time-picker type=&quot;fixed-time&quot; placeholder=&quot;选择时间&quot; v-model=&quot;form.date2&quot; style=&quot;width: 100%;&quot;&gt;&lt;/el-time-picker&gt;&#10;&lt;/el-col&gt;&#10;&lt;/el-form-item&gt;" description="element form item time" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-form-item:switch" value="el-form-item label=&quot;即时配送&quot;&gt;&#10;  &lt;el-switch v-model=&quot;form.delivery&quot;&gt;&lt;/el-switch&gt;&#10;&lt;/el-form-item&gt;" description="element form item switch" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-form-item:checkbox" value="el-form-item label=&quot;活动性质&quot;&gt;&#10;  &lt;el-checkbox-group v-model=&quot;form.type&quot;&gt;&#10;    &lt;el-checkbox label=&quot;美食/餐厅线上活动&quot; name=&quot;type&quot;&gt;&lt;/el-checkbox&gt;&#10;    &lt;el-checkbox label=&quot;地推活动&quot; name=&quot;type&quot;&gt;&lt;/el-checkbox&gt;&#10;    &lt;el-checkbox label=&quot;线下主题活动&quot; name=&quot;type&quot;&gt;&lt;/el-checkbox&gt;&#10;    &lt;el-checkbox label=&quot;单纯品牌曝光&quot; name=&quot;type&quot;&gt;&lt;/el-checkbox&gt;&#10;  &lt;/el-checkbox-group&gt;&#10;&lt;/el-form-item&gt;" description="element form item checkbox" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-form-item:radio" value="el-form-item label=&quot;特殊资源&quot;&gt;&#10;  &lt;el-radio-group v-model=&quot;form.resource&quot;&gt;&#10;    &lt;el-radio label=&quot;线上品牌商赞助&quot;&gt;&lt;/el-radio&gt;&#10;    &lt;el-radio label=&quot;线下场地免费&quot;&gt;&lt;/el-radio&gt;&#10;  &lt;/el-radio-group&gt;&#10;&lt;/el-form-item&gt;" description="element form item radio" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-form-item:textarea" value="el-form-item label=&quot;活动形式&quot;&gt;&#10;  &lt;el-input type=&quot;textarea&quot; v-model=&quot;form.desc&quot;&gt;&lt;/el-input&gt;&#10;&lt;/el-form-item&gt;" description="element form item textarea" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-table" value="el-table&#10;  :data=&quot;[{ date: '2016-05-02', name: '王小虎', address: '上海市普陀区金沙江路 1518 弄' }, { date: '2016-05-04', name: '王小虎', address: '上海市普陀区金沙江路 1517 弄' }]&quot;&#10;  style=&quot;width: 100%&quot;&gt;&#10;  &lt;el-table-column&#10;    prop=&quot;date&quot;&#10;    label=&quot;日期&quot;&#10;    width=&quot;180&quot;&gt;&#10;  &lt;/el-table-column&gt;&#10;  &lt;el-table-column&#10;    prop=&quot;name&quot;&#10;    label=&quot;姓名&quot;&#10;    width=&quot;180&quot;&gt;&#10;  &lt;/el-table-column&gt;&#10;  &lt;el-table-column&#10;    prop=&quot;address&quot;&#10;    label=&quot;地址&quot;&gt;&#10;  &lt;/el-table-column&gt;&#10;&lt;/el-table&gt;" description="element table" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-table:border" value="el-table&#10; border :data=&quot;[{ date: '2016-05-02', name: '王小虎', address: '上海市普陀区金沙江路 1518 弄' }, { date: '2016-05-04', name: '王小虎', address: '上海市普陀区金沙江路 1517 弄' }]&quot;&#10;  style=&quot;width: 100%&quot;&gt;&#10;  &lt;el-table-column&#10;    prop=&quot;date&quot;&#10;    label=&quot;日期&quot;&#10;    width=&quot;180&quot;&gt;&#10;  &lt;/el-table-column&gt;&#10;  &lt;el-table-column&#10;    prop=&quot;name&quot;&#10;    label=&quot;姓名&quot;&#10;    width=&quot;180&quot;&gt;&#10;  &lt;/el-table-column&gt;&#10;  &lt;el-table-column&#10;    prop=&quot;address&quot;&#10;    label=&quot;地址&quot;&gt;&#10;  &lt;/el-table-column&gt;&#10;&lt;/el-table&gt;" description="element table border" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-table:fixedheader" value="el-table&#10;    :data=&quot;[{ date: '2016-05-02', name: '王小虎', address: '上海市普陀区金沙江路 1518 弄' }, { date: '2016-05-04', name: '王小虎', address: '上海市普陀区金沙江路 1517 弄' }]&quot;&#10;    height=&quot;250&quot;&#10;    border&#10;    style=&quot;width: 100%&quot;&gt;&#10;    &lt;el-table-column&#10;      prop=&quot;date&quot;&#10;      label=&quot;日期&quot;&#10;      width=&quot;180&quot;&gt;&#10;    &lt;/el-table-column&gt;&#10;    &lt;el-table-column&#10;      prop=&quot;name&quot;&#10;      label=&quot;姓名&quot;&#10;      width=&quot;180&quot;&gt;&#10;    &lt;/el-table-column&gt;&#10;    &lt;el-table-column&#10;      prop=&quot;address&quot;&#10;      label=&quot;地址&quot;&gt;&#10;    &lt;/el-table-column&gt;&#10;  &lt;/el-table&gt;" description="element table" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-table:select" value="el-table&#10;  ref=&quot;multipleTable&quot;&#10;  :data=&quot;[{ date: '2016-05-02', name: '王小虎', address: '上海市普陀区金沙江路 1518 弄' }, { date: '2016-05-04', name: '王小虎', address: '上海市普陀区金沙江路 1517 弄' }]&quot;&#10;  tooltip-effect=&quot;dark&quot;&#10;  style=&quot;width: 100%&quot;&#10;  @selection-change=&quot;handleSelectionChange&quot;&gt;&#10;  &lt;el-table-column&#10;    type=&quot;selection&quot;&#10;    width=&quot;55&quot;&gt;&#10;  &lt;/el-table-column&gt;&#10;  &lt;el-table-column&#10;    label=&quot;日期&quot;&#10;    width=&quot;120&quot;&gt;&#10;    &lt;template slot-scope=&quot;scope&quot;&gt;{{ scope.row.date }}&lt;/template&gt;&#10;  &lt;/el-table-column&gt;&#10;  &lt;el-table-column&#10;    prop=&quot;name&quot;&#10;    label=&quot;姓名&quot;&#10;    width=&quot;120&quot;&gt;&#10;  &lt;/el-table-column&gt;&#10;  &lt;el-table-column&#10;    prop=&quot;address&quot;&#10;    label=&quot;地址&quot;&#10;    show-overflow-tooltip&gt;&#10;  &lt;/el-table-column&gt;&#10;&lt;/el-table&gt;" description="element table" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-table:sort" value="el-table&#10;  :data=&quot;[{ date: '2016-05-02', name: '王小虎', address: '上海市普陀区金沙江路 1518 弄' }, { date: '2016-05-04', name: '王小虎', address: '上海市普陀区金沙江路 1517 弄' }]&quot;&#10;  style=&quot;width: 100%&quot;&#10;  :default-sort = &quot;{prop: 'date', order: 'descending'}&quot;&#10;  &gt;&#10;  &lt;el-table-column&#10;    prop=&quot;date&quot;&#10;    label=&quot;日期&quot;&#10;    sortable&#10;    width=&quot;180&quot;&gt;&#10;  &lt;/el-table-column&gt;&#10;  &lt;el-table-column&#10;    prop=&quot;name&quot;&#10;    label=&quot;姓名&quot;&#10;    sortable&#10;    width=&quot;180&quot;&gt;&#10;  &lt;/el-table-column&gt;&#10;  &lt;el-table-column&#10;    prop=&quot;address&quot;&#10;    label=&quot;地址&quot;&#10;    :formatter=&quot;formatter&quot;&gt;&#10;  &lt;/el-table-column&gt;&#10;&lt;/el-table&gt;" description="element table" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-table-column" value="el-table-column&#10; header-align=&quot;center&quot;&#10; align=&quot;center&quot;&#10; prop=&quot;columnProp&quot;&#10; label=&quot;columnLabel&quot;&#10; &gt;&#10;&lt;/el-table-column&gt;" description="element table column" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-table-column:left" value="el-table-column&#10; header-align=&quot;left&quot;&#10; align=&quot;left&quot;&#10; prop=&quot;columnProp&quot;&#10; label=&quot;columnLabel&quot;&#10; &gt;&#10;&lt;/el-table-column&gt;" description="element table column" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-rules:required" value="{require: true, message:'请输入', trigger: &quot;blur&quot;}" description="element rules required" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="el-rules:minMax" value="{ min: 3, max: 5, message: '长度在 3 到 5 个字符', trigger: 'blur' }" description="element rules minMax" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="el-rules:date" value="{ type: 'date', required: true, message: '请选择日期', trigger: 'change' }" description="element rules date" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="el-rules:array" value="{ type: 'array', required: true, message: '请至少选择一个活动性质', trigger: 'change' }" description="element rules array" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="el-rules:define" value="{ validator: validatePass, trigger: 'blur' }" description="element rules define" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="el-rules:define-data" value="var checkAge = (rule, value, callback) =&gt; {&#10;  if (!value) {&#10;    return callback(new Error('empty'));&#10;  }&#10;  callback();&#10;};" description="element rules define" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="el-table-column:slot" value="el-table-column&#10; header-align=&quot;center&quot;&#10; align=&quot;center&quot;&#10; label=&quot;columnLabel&quot;&gt;&#10; &lt;template slot-scope=&quot;scope&quot;&gt;&#10;   {{scope.row.status}}&#10; &lt;/template&gt;&#10;&lt;/el-table-column&gt;" description="element table column" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-tag" value="el-tag type=&quot;success&quot;&gt;标签二&lt;/el-tag&gt;" description="element tag" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-tag:remove" value="el-tag&#10;  v-for=&quot;tag in [ { name: '标签一', type: '' }, { name: '标签二', type: 'success' }]&quot;&#10;  :key=&quot;tag.name&quot;&#10;  closable&#10;  :type=&quot;tag.type&quot;&gt;&#10;  {{tag.name}}&#10;&lt;/el-tag&gt;" description="element table" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-progress" value="el-progress :percentage=&quot;30&quot;&gt;&lt;/el-progress&gt;" description="element tag" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-progress:inside" value="el-progress :text-inside=&quot;true&quot; :stroke-width=&quot;18&quot; :percentage=&quot;70&quot;&gt;&lt;/el-progress&gt;" description="element tag inside" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-progress:circle" value="el-progress type=&quot;circle&quot; :percentage=&quot;25&quot;&gt;&lt;/el-progress&gt;" description="element tag circle" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-tree" value="el-tree &#10;:data=&quot;[{ label: '一级 1', children: [{ label: '二级 1-1', children: [{ label: '三级 1-1-1' }] }] }]&quot; &#10;:props=&quot; { children: 'children', label: 'label' }&quot; &#10;@node-click=&quot;handleNodeClick(data)&quot;&gt;&lt;/el-tree&gt;" description="element tree" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-tree:select" value="el-tree show-checkbox &#10;:data=&quot;[{ label: '一级 1', children: [{ label: '二级 1-1', children: [{ label: '三级 1-1-1' }] }] }]&quot; &#10;:props=&quot; { children: 'children', label: 'label' }&quot; &#10;@node-click=&quot;handleNodeClick(data)&quot;&gt;&lt;/el-tree&gt;" description="element tree select" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-pagination" value="el-pagination&#10;  layout=&quot;prev, pager, next&quot;&#10;  :total=&quot;50&quot;&gt;&#10;&lt;/el-pagination&gt;" description="element pagination" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-pagination:background" value="el-pagination background &#10;  layout=&quot;prev, pager, next&quot;&#10;  :total=&quot;50&quot;&gt;&#10;&lt;/el-pagination&gt;" description="element pagination background" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-pagination:full" value="el-pagination&#10;  @size-change=&quot;handleSizeChange&quot;&#10;  @current-change=&quot;handleCurrentChange&quot;&#10;  :current-page=&quot;currentPage4&quot;&#10;  :page-sizes=&quot;[100, 200, 300, 400]&quot;&#10;  :page-size=&quot;100&quot;&#10;  layout=&quot;total, sizes, prev, pager, next, jumper&quot;&#10;  :total=&quot;400&quot;&gt;&#10;&lt;/el-pagination&gt;" description="element pagination full" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-badge" value="el-badge class=&quot;mark&quot; :value=&quot;12&quot; /&gt;" description="element badge" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-badge:button" value="el-badge :value=&quot;12&quot; class=&quot;item&quot;&gt;&#10;  &lt;el-button size=&quot;small&quot;&gt;评论&lt;/el-button&gt;&#10;&lt;/el-badge&gt;" description="element badge button" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-badge:dot" value="el-badge is-dot class=&quot;item&quot;&gt;数据查询&lt;/el-badge&gt;" description="element tag" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-alert" value="el-alert&#10;  title=&quot;$success$&quot;&#10;  type=&quot;success&quot;&gt;&#10;&lt;/el-alert&gt;" description="element alert" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="success" expression="" defaultValue="&quot;成功提示的文案&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-alert:icon" value="el-alert&#10;  title=&quot;成功提示的文案&quot;&#10;  type=&quot;success&quot;&#10;  show-icon&gt;&#10;&lt;/el-alert&gt;" description="element alert icon" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="elm-message" value="this.$message({&#10;  message: '恭喜你，这是一条成功消息',&#10;  type: 'success'&#10;});" description="element message" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="elm-message:close" value="this.$message({&#10;  message: '恭喜你，这是一条成功消息',&#10;  showClose: true,&#10;  type: 'success'&#10;});" description="element message close" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="elm-alert" value="this.$alert('这是一段内容', '标题名称', {&#10;  confirmButtonText: '确定',&#10;  callback: action =&gt; {&#10;    this.$message({&#10;      type: 'info',&#10;      message: 'message'&#10;    });&#10;  }&#10;});" description="element alert" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="elm-confirm" value="this.$confirm('此操作将永久删除该文件, 是否继续?', '提示', {&#10;  confirmButtonText: '确定',&#10;  cancelButtonText: '取消',&#10;  type: 'warning'&#10;}).then(() =&gt; {&#10;  this.$message({&#10;    type: 'success',&#10;    message: '删除成功!'&#10;  });&#10;}).catch(() =&gt; {&#10;  this.$message({&#10;    type: 'info',&#10;    message: '已取消删除'&#10;  });          &#10;});" description="element confirm" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="elm-prompt" value="this.$prompt('请输入邮箱', '提示', {&#10;  confirmButtonText: '确定',&#10;  cancelButtonText: '取消',&#10;  inputPattern: //,&#10;  inputErrorMessage: 'wrong'&#10;}).then(({ value }) =&gt; {&#10;  this.$message({&#10;    type: 'success',&#10;    message: '你的邮箱是: ' + value&#10;  });&#10;}).catch(() =&gt; {&#10;  this.$message({&#10;    type: 'info',&#10;    message: '取消输入'&#10;  });       &#10;});" description="element prompt" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="elm-notify" value="this.$notify({&#10;  title: '标题名称',&#10;  message: h('i', { style: 'color: teal'}, 'notify')&#10;});" description="element notify" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="elm-notify:noclose" value="this.$notify({&#10;  title: '提示',&#10;  message: '不会自动关闭的消息',&#10;  duration: 0&#10;});" description="element notify no close" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="elm-notify:success" value="this.$notify({&#10;  title: '成功',&#10;  message: '这是一条成功的提示消息',&#10;  type: 'success'&#10;});" description="element notify success" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="el-menu" value="el-menu :default-active=&quot;activeIndex&quot; class=&quot;el-menu-demo&quot; mode=&quot;horizontal&quot; @select=&quot;handleSelect&quot;&gt;&#10;  &lt;el-menu-item index=&quot;1&quot;&gt;处理中心&lt;/el-menu-item&gt;&#10;&lt;/el-menu&gt;" description="element menu" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-menu:submenu" value="el-menu :default-active=&quot;activeIndex&quot; class=&quot;el-menu-demo&quot; mode=&quot;horizontal&quot; @select=&quot;handleSelect&quot;&gt;&#10;  &lt;el-submenu index=&quot;1&quot;&gt;&#10;    &lt;template slot=&quot;title&quot;&gt;我的工作台&lt;/template&gt;&#10;    &lt;el-menu-item index=&quot;1-1&quot;&gt;选项1&lt;/el-menu-item&gt;&#10;    &lt;el-menu-item index=&quot;1-2&quot;&gt;选项2&lt;/el-menu-item&gt;&#10;    &lt;el-menu-item index=&quot;1-3&quot;&gt;选项3&lt;/el-menu-item&gt;  &#10;  &lt;/el-submenu&gt;&#10;&lt;/el-menu&gt;" description="element menu submenu" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-menu:group" value="el-menu :default-active=&quot;activeIndex&quot; class=&quot;el-menu-demo&quot; mode=&quot;horizontal&quot; @select=&quot;handleSelect&quot;&gt;&#10;  &lt;el-submenu index=&quot;1&quot;&gt;&#10;    &lt;template slot=&quot;title&quot;&gt;&#10;        &lt;i class=&quot;el-icon-location&quot;&gt;&lt;/i&gt;&#10;        &lt;span&gt;导航一&lt;/span&gt;&#10;      &lt;/template&gt;&#10;      &lt;el-menu-item-group&gt;&#10;        &lt;template slot=&quot;title&quot;&gt;分组一&lt;/template&gt;&#10;        &lt;el-menu-item index=&quot;1-1&quot;&gt;选项1&lt;/el-menu-item&gt;&#10;        &lt;el-menu-item index=&quot;1-2&quot;&gt;选项2&lt;/el-menu-item&gt;&#10;      &lt;/el-menu-item-group&gt;&#10;  &lt;/el-submenu&gt;&#10;&lt;/el-menu&gt;" description="element menu group" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-menu:fold" value="&#10;&lt;el-radio-group v-model=&quot;isCollapse&quot; style=&quot;margin-bottom: 20px;&quot;&gt;&#10;  &lt;el-radio-button :label=&quot;false&quot;&gt;展开&lt;/el-radio-button&gt;&#10;  &lt;el-radio-button :label=&quot;true&quot;&gt;收起&lt;/el-radio-button&gt;&#10;&lt;/el-radio-group&gt;&#10;&lt;el-menu default-active=&quot;1-4-1&quot; class=&quot;el-menu-vertical-demo&quot; @open=&quot;handleOpen&quot; @close=&quot;handleClose&quot; :collapse=&quot;isCollapse&quot;&gt;&#10;  &lt;el-submenu index=&quot;1&quot;&gt;&#10;    &lt;template slot=&quot;title&quot;&gt;&#10;      &lt;i class=&quot;el-icon-location&quot;&gt;&lt;/i&gt;&#10;      &lt;span slot=&quot;title&quot;&gt;导航一&lt;/span&gt;&#10;    &lt;/template&gt;&#10;    &lt;el-menu-item-group&gt;&#10;      &lt;span slot=&quot;title&quot;&gt;分组一&lt;/span&gt;&#10;      &lt;el-menu-item index=&quot;1-1&quot;&gt;选项1&lt;/el-menu-item&gt;&#10;      &lt;el-menu-item index=&quot;1-2&quot;&gt;选项2&lt;/el-menu-item&gt;&#10;    &lt;/el-menu-item-group&gt;&#10;    &lt;el-menu-item-group title=&quot;分组2&quot;&gt;&#10;      &lt;el-menu-item index=&quot;1-3&quot;&gt;选项3&lt;/el-menu-item&gt;&#10;    &lt;/el-menu-item-group&gt;&#10;    &lt;el-submenu index=&quot;1-4&quot;&gt;&#10;      &lt;span slot=&quot;title&quot;&gt;选项4&lt;/span&gt;&#10;      &lt;el-menu-item index=&quot;1-4-1&quot;&gt;选项1&lt;/el-menu-item&gt;&#10;    &lt;/el-submenu&gt;&#10;  &lt;/el-submenu&gt;&#10;&lt;/el-menu&gt;" description="element menu fold" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-tab" value="el-tabs v-model=&quot;activeName&quot; @tab-click=&quot;handleClick(tab, event)&quot;&gt;&#10;  &lt;el-tab-pane label=&quot;用户管理&quot; name=&quot;first&quot;&gt;用户管理&lt;/el-tab-pane&gt;&#10;  &lt;el-tab-pane label=&quot;配置管理&quot; name=&quot;second&quot;&gt;配置管理&lt;/el-tab-pane&gt;&#10;&lt;/el-tabs&gt;" description="element tab" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-tab:card" value="el-tabs type=&quot;card&quot; v-model=&quot;activeName&quot; @tab-click=&quot;handleClick(tab, event)&quot;&gt;&#10;  &lt;el-tab-pane label=&quot;用户管理&quot; name=&quot;first&quot;&gt;用户管理&lt;/el-tab-pane&gt;&#10;  &lt;el-tab-pane label=&quot;配置管理&quot; name=&quot;second&quot;&gt;配置管理&lt;/el-tab-pane&gt;&#10;&lt;/el-tabs&gt;" description="element tab card" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-tab:bordercard" value="el-tabs type=&quot;border-card&quot; v-model=&quot;activeName&quot; @tab-click=&quot;handleClick(tab, event)&quot;&gt;&#10;  &lt;el-tab-pane label=&quot;用户管理&quot; name=&quot;first&quot;&gt;用户管理&lt;/el-tab-pane&gt;&#10;  &lt;el-tab-pane label=&quot;配置管理&quot; name=&quot;second&quot;&gt;配置管理&lt;/el-tab-pane&gt;&#10;&lt;/el-tabs&gt;" description="element tab bordercard" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-breadcrumb" value="el-breadcrumb separator=&quot;/&quot;&gt;&#10;  &lt;el-breadcrumb-item :to=&quot;{ path: '/' }&quot;&gt;首页&lt;/el-breadcrumb-item&gt;&#10;  &lt;el-breadcrumb-item&gt;活动管理&lt;/el-breadcrumb-item&gt;&#10;&lt;/el-breadcrumb&gt;" description="element breadcrumb" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-breadcrumb:separator" value="el-breadcrumb separator-class=&quot;el-icon-arrow-right&quot;&gt;&#10;  &lt;el-breadcrumb-item :to=&quot;{ path: '/' }&quot;&gt;首页&lt;/el-breadcrumb-item&gt;&#10;  &lt;el-breadcrumb-item&gt;活动管理&lt;/el-breadcrumb-item&gt;&#10;&lt;/el-breadcrumb&gt;" description="element breadcrumb separator" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-dropdown" value="el-dropdown&gt;&#10;  &lt;span class=&quot;el-dropdown-link&quot;&gt;&#10;    下拉菜单&lt;i class=&quot;el-icon-arrow-down el-icon--right&quot;&gt;&lt;/i&gt;&#10;  &lt;/span&gt;&#10;  &lt;el-dropdown-menu slot=&quot;dropdown&quot;&gt;&#10;    &lt;el-dropdown-item&gt;黄金糕&lt;/el-dropdown-item&gt;&#10;    &lt;el-dropdown-item disabled&gt;双皮奶&lt;/el-dropdown-item&gt;&#10;    &lt;el-dropdown-item divided&gt;蚵仔煎&lt;/el-dropdown-item&gt;&#10;  &lt;/el-dropdown-menu&gt;&#10;&lt;/el-dropdown&gt;" description="element dropdown" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-dropdown:button" value="el-dropdown&gt;&#10;  &lt;el-button type=&quot;primary&quot;&gt;&#10;    更多菜单&lt;i class=&quot;el-icon-arrow-down el-icon--right&quot;&gt;&lt;/i&gt;&#10;  &lt;/el-button&gt;&#10;  &lt;el-dropdown-menu slot=&quot;dropdown&quot;&gt;&#10;    &lt;el-dropdown-item&gt;黄金糕&lt;/el-dropdown-item&gt;&#10;    &lt;el-dropdown-item&gt;狮子头&lt;/el-dropdown-item&gt;&#10;  &lt;/el-dropdown-menu&gt;&#10;&lt;/el-dropdown&gt;" description="element dropdown button" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-steps" value="el-steps :active=&quot;active&quot; finish-status=&quot;success&quot;&gt;&#10;  &lt;el-step title=&quot;步骤 1&quot;&gt;&lt;/el-step&gt;&#10;  &lt;el-step title=&quot;步骤 2&quot;&gt;&lt;/el-step&gt;&#10;  &lt;el-step title=&quot;步骤 3&quot;&gt;&lt;/el-step&gt;&#10;&lt;/el-steps&gt;" description="element steps" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-steps:icon" value="el-steps :active=&quot;1&quot;&gt;&#10;  &lt;el-step title=&quot;步骤 1&quot; icon=&quot;el-icon-edit&quot;&gt;&lt;/el-step&gt;&#10;  &lt;el-step title=&quot;步骤 2&quot; icon=&quot;el-icon-upload&quot;&gt;&lt;/el-step&gt;&#10;  &lt;el-step title=&quot;步骤 3&quot; icon=&quot;el-icon-picture&quot;&gt;&lt;/el-step&gt;&#10;&lt;/el-steps&gt;" description="element step icon" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-steps:simple" value="el-steps :active=&quot;1&quot; simple&gt;&#10;  &lt;el-step title=&quot;步骤 1&quot; icon=&quot;el-icon-edit&quot;&gt;&lt;/el-step&gt;&#10;  &lt;el-step title=&quot;步骤 2&quot; icon=&quot;el-icon-upload&quot;&gt;&lt;/el-step&gt;&#10;  &lt;el-step title=&quot;步骤 3&quot; icon=&quot;el-icon-picture&quot;&gt;&lt;/el-step&gt;&#10;&lt;/el-steps&gt;" description="element step simple" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-dialog" value="el-dialog&#10;  title=&quot;提示&quot;&#10;  :visible.sync=&quot;dialogVisible&quot;&#10;  width=&quot;30%&quot;&#10;  :before-close=&quot;handleClose(done)&quot;&gt;&#10;  &lt;span&gt;这是一段信息&lt;/span&gt;&#10;  &lt;span slot=&quot;footer&quot; class=&quot;dialog-footer&quot;&gt;&#10;    &lt;el-button @click=&quot;dialogVisible = false&quot;&gt;取 消&lt;/el-button&gt;&#10;    &lt;el-button type=&quot;primary&quot; @click=&quot;dialogVisible = false&quot;&gt;确 定&lt;/el-button&gt;&#10;  &lt;/span&gt;&#10;&lt;/el-dialog&gt;" description="element dialog" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-dialog:form" value="el-dialog title=&quot;收货地址&quot; :visible.sync=&quot;dialogFormVisible&quot;&gt;&#10;  &lt;el-form :model=&quot;form&quot;&gt;&#10;    &lt;el-form-item label=&quot;活动名称&quot; :label-width=&quot;formLabelWidth&quot;&gt;&#10;      &lt;el-input v-model=&quot;form.name&quot; auto-complete=&quot;off&quot;&gt;&lt;/el-input&gt;&#10;    &lt;/el-form-item&gt;&#10;    &lt;el-form-item label=&quot;活动区域&quot; :label-width=&quot;formLabelWidth&quot;&gt;&#10;      &lt;el-select v-model=&quot;form.region&quot; placeholder=&quot;请选择活动区域&quot;&gt;&#10;        &lt;el-option label=&quot;区域一&quot; value=&quot;shanghai&quot;&gt;&lt;/el-option&gt;&#10;        &lt;el-option label=&quot;区域二&quot; value=&quot;beijing&quot;&gt;&lt;/el-option&gt;&#10;      &lt;/el-select&gt;&#10;    &lt;/el-form-item&gt;&#10;  &lt;/el-form&gt;&#10;  &lt;div slot=&quot;footer&quot; class=&quot;dialog-footer&quot;&gt;&#10;    &lt;el-button @click=&quot;dialogFormVisible = false&quot;&gt;取 消&lt;/el-button&gt;&#10;    &lt;el-button type=&quot;primary&quot; @click=&quot;dialogFormVisible = false&quot;&gt;确 定&lt;/el-button&gt;&#10;  &lt;/div&gt;&#10;&lt;/el-dialog&gt;" description="element dialog form" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-tooltip" value="el-tooltip class=&quot;item&quot; effect=&quot;dark&quot; content=&quot;Top Center 提示文字&quot; placement=&quot;top&quot;&gt;&#10;  &lt;el-button&gt;上边&lt;/el-button&gt;&#10;&lt;/el-tooltip&gt;" description="element tooltip" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-tooltip:content" value="el-tooltip placement=&quot;top&quot;&gt;&#10;  &lt;div slot=&quot;content&quot;&gt;多行信息&lt;br/&gt;第二行信息&lt;/div&gt;&#10;  &lt;el-button&gt;Top center&lt;/el-button&gt;&#10;&lt;/el-tooltip&gt;" description="element tooltip content" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-popover" value="el-popover&#10;  ref=&quot;popover1&quot;&#10;  placement=&quot;top-start&quot;&#10;  title=&quot;标题&quot;&#10;  width=&quot;200&quot;&#10;  trigger=&quot;hover&quot;&#10;  content=&quot;这是一段内容,这是一段内容,这是一段内容,这是一段内容。&quot;&gt;&#10;&lt;/el-popover&gt;" description="element popover" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-popover:insert" value="el-popover&#10;  ref=&quot;popover4&quot;&#10;  placement=&quot;right&quot;&#10;  width=&quot;400&quot;&#10;  trigger=&quot;click&quot;&gt;&#10;  &lt;el-table :data=&quot;gridData&quot;&gt;&#10;    &lt;el-table-column width=&quot;150&quot; property=&quot;date&quot; label=&quot;日期&quot;&gt;&lt;/el-table-column&gt;&#10;    &lt;el-table-column width=&quot;100&quot; property=&quot;name&quot; label=&quot;姓名&quot;&gt;&lt;/el-table-column&gt;&#10;    &lt;el-table-column width=&quot;300&quot; property=&quot;address&quot; label=&quot;地址&quot;&gt;&lt;/el-table-column&gt;&#10;  &lt;/el-table&gt;&#10;&lt;/el-popover&gt;" description="element popover insert" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-card" value="el-card class=&quot;box-card&quot;&gt;&#10;  &lt;div slot=&quot;header&quot; class=&quot;clearfix&quot;&gt;&#10;    &lt;span&gt;卡片名称&lt;/span&gt;&#10;    &lt;el-button style=&quot;float: right; padding: 3px 0&quot; type=&quot;text&quot;&gt;操作按钮&lt;/el-button&gt;&#10;  &lt;/div&gt;&#10;  &lt;div v-for=&quot;o in 4&quot; :key=&quot;o&quot; class=&quot;text item&quot;&gt;&#10;    {{'列表内容 ' + o }}&#10;  &lt;/div&gt;&#10;&lt;/el-card&gt;" description="element card" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-carousel" value="el-carousel height=&quot;150px&quot;&gt;&#10;  &lt;el-carousel-item v-for=&quot;item in 4&quot; :key=&quot;item&quot;&gt;&#10;    &lt;h3&gt;{{ item }}&lt;/h3&gt;&#10;  &lt;/el-carousel-item&gt;&#10;&lt;/el-carousel&gt;" description="element carousel" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-carousel:card" value="el-carousel :interval=&quot;4000&quot; type=&quot;card&quot; height=&quot;200px&quot;&gt;&#10;  &lt;el-carousel-item v-for=&quot;item in 6&quot; :key=&quot;item&quot;&gt;&#10;    &lt;h3&gt;{{ item }}&lt;/h3&gt;&#10;  &lt;/el-carousel-item&gt;&#10;&lt;/el-carousel&gt;" description="element carousel card" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="el-collapse" value="el-collapse v-model=&quot;activeNames&quot; @change=&quot;handleChange(val)&quot;&gt;&#10;  &lt;el-collapse-item title=&quot;一致性 Consistency&quot; name=&quot;1&quot;&gt;&#10;    &lt;div&gt;与现实生活一致&lt;/div&gt;&#10;    &lt;div&gt;在界面中一致&lt;/div&gt;&#10;  &lt;/el-collapse-item&gt;&#10;  &lt;el-collapse-item title=&quot;反馈 Feedback&quot; name=&quot;2&quot;&gt;&#10;    &lt;div&gt;控制反馈&lt;/div&gt;&#10;    &lt;div&gt;页面反馈&lt;/div&gt;&#10;  &lt;/el-collapse-item&gt;&#10;&lt;/el-collapse&gt;" description="element collapse" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="elm-form-validate" value="this.$refs[formName].validate((valid) =&gt; {&#10;  if (valid) {&#10;    alert('submit!');&#10;  } else {&#10;    console.log('error submit!!');&#10;    return false;&#10;  }&#10;});" description="element form validate" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>

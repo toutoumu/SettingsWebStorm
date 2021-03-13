@@ -1,0 +1,71 @@
+<application>
+  <component name="AppStorage">
+    <option name="newTranslationDialogX" value="520" />
+    <option name="newTranslationDialogY" value="383" />
+    <option name="pinNewTranslationDialog" value="true" />
+    <histories>
+      <item value="from" />
+      <item value="社区" />
+      <item value="街道" />
+      <item value="统计" />
+      <item value="分配" />
+      <item value="evaluated" />
+      <item value="重新分配" />
+      <item value="consult" />
+      <item value="转让" />
+      <item value="disband" />
+      <item value="解散" />
+      <item value="头像" />
+      <item value="驳回" />
+      <item value="审批" />
+      <item value="managment" />
+      <item value="我的" />
+      <item value="census Register" />
+      <item value="leader Address" />
+      <item value="leader Birth Place" />
+      <item value="leader Residence" />
+      <item value="nation" />
+      <item value="political Status Name" />
+      <item value="Residence" />
+      <item value="review" />
+      <item value="immediate" />
+      <item value="comform" />
+      <item value="审核" />
+      <item value="职业" />
+      <item value="周一" />
+      <item value="周日" />
+      <item value="Pertition" />
+      <item value="persons" />
+      <item value="部门" />
+      <item value="series" />
+      <item value="百分比" />
+      <item value="违章停车" />
+      <item value="Exclude" />
+      <item value="unity" />
+      <item value="Situation" />
+      <item value="slice" />
+      <item value="operational" />
+      <item value="操作" />
+      <item value="reduce" />
+      <item value="减" />
+      <item value="condition" />
+      <item value="高级" />
+      <item value="advantage" />
+      <item value="Week" />
+      <item value="Weekend" />
+      <item value="registion" />
+    </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="91" />
+        <entry key="ENGLISH" value="92" />
+        <entry key="CATALAN" value="1" />
+        <entry key="ESPERANTO" value="2" />
+        <entry key="VIETNAMESE" value="1" />
+      </map>
+    </option>
+  </component>
+  <component name="Cache">
+    <option name="lastTrimTime" value="1615269848206" />
+  </component>
+</application>

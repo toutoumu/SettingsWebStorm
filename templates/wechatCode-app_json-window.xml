@@ -1,0 +1,79 @@
+<templateSet group="wechatCode-app.json-window">
+  <template name="wxPages" value="&quot;pages&quot;: [&#10;        &quot;$relatedPath$&quot;&#10;    ]," description="window: 页面配置" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="relatedPath" expression="" defaultValue="&quot;相对路径&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
+  <template name="wxWindow" value="&quot;window&quot;: {&#10;        &quot;navigationBarBackgroundColor&quot;: &quot;#000000&quot;,&#10;        &quot;navigationBarTextStyle&quot;: &quot;$style$&quot;,&#10;        &quot;navigationBarTitleText&quot;: &quot;这里是标题&quot;,&#10;        &quot;navigationStyle&quot;: &quot;default|custom&quot;,&#10;        &quot;backgroundColor&quot;: &quot;#ffffff&quot;,&#10;        &quot;backgroundTextStyle&quot;: &quot;dark|light&quot;,&#10;        &quot;backgroundColorTop&quot;: &quot;#ffffff&quot;,&#10;        &quot;backgroundColorBottom&quot;: &quot;#ffffff&quot;,&#10;        &quot;enablePullDownRefresh&quot;: true,&#10;        &quot;onReachBottomDistance&quot;: 50&#10;    }," description="window: 窗口配置" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="style" expression="" defaultValue="&quot;white | black&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
+  <template name="wxNavigationBarBackgroundColor" value="&quot;navigationBarBackgroundColor&quot;: &quot;$value$&quot;," description="window: 导航栏背景颜色，如 #000000" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="value" expression="" defaultValue="&quot;#000000&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
+  <template name="wxNavigationBarTextStyle" value="&quot;navigationBarTextStyle&quot;:&quot;$black$&quot;," description="window: 导航栏标题颜色，仅支持 black / white" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="black" expression="" defaultValue="&quot;black&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
+  <template name="wxNavigationBarTitleText" value="&quot;navigationBarTitleText&quot;:&quot;$End$&quot;" description="window: 导航栏标题文字内容" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="End" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
+  <template name="wxNavigationStyle" value="&quot;navigationStyle&quot;:&quot;$End$&quot;" description="window: 导航栏样式，仅支持以下值： default 默认样式 custom 自定义导航栏，只保留右上角胶囊按钮。" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="End" expression="" defaultValue="&quot;default&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
+  <template name="wxBackgroundColor" value="&quot;backgroundColor&quot;:&quot;$End$&quot;" description="window: 窗口的背景色" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="End" expression="" defaultValue="&quot;#ffffff&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
+  <template name="wxBackgroundColorTop" value="&quot;backgroundColorTop&quot;:&quot;$End$&quot;" description="window: 顶部窗口的背景色，仅 iOS 支持" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="End" expression="" defaultValue="&quot;#ffffff&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
+  <template name="wxBackgroundColorBottom" value="&quot;backgroundColorBottom&quot;:&quot;$End$&quot;" description="window: 底部窗口的背景色，仅 iOS 支持" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="End" expression="" defaultValue="&quot;#ffffff&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
+  <template name="wxEnablePullDownRefresh" value="&quot;enablePullDownRefresh&quot;: $End$" description="window: 是否开启全局的下拉刷新。" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="End" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
+  <template name="wxOnReachBottomDistance" value="&quot;onReachBottomDistance&quot;:&quot;$End$&quot;" description="window: 页面上拉触底事件触发时距页面底部距离，单位为 px。" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="End" expression="" defaultValue="&quot;50&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
+  <template name="wxPageOrientation" value="&quot;pageOrientation&quot;:&quot;$End$&quot;" description="window: 屏幕旋转设置，支持 auto / portrait / landscape" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="End" expression="" defaultValue="&quot;portrait&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
+  <template name="wxRequiredBackgroundModes" value="&quot;requiredBackgroundModes&quot;: [&quot;audio&quot;, &quot;location&quot;]" description="window: 申明需要后台运行的能力，类型为数组。目前支持以下项目：  &quot;audio&quot;, &quot;location&quot;" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
+</templateSet>

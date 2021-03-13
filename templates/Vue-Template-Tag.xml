@@ -1,0 +1,86 @@
+<templateSet group="Vue-Template-Tag">
+  <template name="vfor" value="v-for=&quot;$item$ in $items$&quot; :key=&quot;$item$.id&quot;" description="Vue v-for statement" toReformat="true" toShortenFQNames="true">
+    <variable name="item" expression="" defaultValue="&quot;item&quot;" alwaysStopAt="true" />
+    <variable name="items" expression="" defaultValue="&quot;items&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="vforWithIndex" value="v-for=&quot;($item$, $index$) in $items$&quot; :key=&quot;$item$.id&quot;" description="Vue v-for statement" toReformat="true" toShortenFQNames="true">
+    <variable name="item" expression="" defaultValue="&quot;item&quot;" alwaysStopAt="true" />
+    <variable name="index" expression="" defaultValue="&quot;index&quot;" alwaysStopAt="true" />
+    <variable name="items" expression="" defaultValue="&quot;items&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="vstyle" value=":style=&quot;{ fontSize: $data$ + 'px' }&quot; " description="Vue inline style binding" toReformat="true" toShortenFQNames="true">
+    <variable name="data" expression="" defaultValue="&quot;data&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="vstyle-obj" value=":style=&quot;[$styleObjectA$, $styleObjectB$]&quot; " description="Vue style binding object" toReformat="true" toShortenFQNames="true">
+    <variable name="styleObjectA" expression="" defaultValue="&quot;styleObjectA&quot;" alwaysStopAt="true" />
+    <variable name="styleObjectB" expression="" defaultValue="&quot;styleObjectB&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="vclass" value=":class=&quot;{ $className$: $data$ }&quot; " description="Vue class binding" toReformat="true" toShortenFQNames="true">
+    <variable name="className" expression="" defaultValue="&quot;className&quot;" alwaysStopAt="true" />
+    <variable name="data" expression="" defaultValue="&quot;data&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="vclass-obj" value=":class=&quot;[$classNameA$, $classNameB$]&quot; " description="Vue class binding object" toReformat="true" toShortenFQNames="true">
+    <variable name="classNameA" expression="" defaultValue="&quot;classNameA&quot;" alwaysStopAt="true" />
+    <variable name="classNameB" expression="" defaultValue="&quot;classNameB&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="vclass-obj-mult" value=":class=&quot;[$classNameA$, {$classNameB$ : $condition$}]&quot; " description="Vue multiple conditional class bindings" toReformat="true" toShortenFQNames="true">
+    <variable name="classNameA" expression="" defaultValue="&quot;classNameA&quot;" alwaysStopAt="true" />
+    <variable name="classNameB" expression="" defaultValue="&quot;classNameB&quot;" alwaysStopAt="true" />
+    <variable name="condition" expression="" defaultValue="&quot;condition&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="vmodel-num" value="v-model.number=&quot;$numData$&quot; type=&quot;number&quot;  " description="Vue v-model number directive" toReformat="true" toShortenFQNames="true">
+    <variable name="numData" expression="" defaultValue="&quot;numData&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="vrouterWithParam" value=":to=&quot;{name: '$name$', params:{$id$: '$value$'} }&quot; " description="router-link with param" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="id" expression="" defaultValue="&quot;id&quot;" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="&quot;value&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="vrouterToName" value=":to=&quot;{name: '$name$'}&quot; " description="router-link to name" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="vforObj" value="v-for=&quot;($item$,$key$) in $obj$&quot; :key=&quot;$key$&quot;" description="Vue v-for statement" toReformat="true" toShortenFQNames="true">
+    <variable name="item" expression="" defaultValue="&quot;item&quot;" alwaysStopAt="true" />
+    <variable name="key" expression="" defaultValue="&quot;key&quot;" alwaysStopAt="true" />
+    <variable name="obj" expression="" defaultValue="&quot;obj&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+  <template name="vkey" value="key=&quot;$item$&quot;" description="Vue key statement" toReformat="true" toShortenFQNames="true">
+    <variable name="item" expression="" defaultValue="&quot;item&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+    </context>
+  </template>
+</templateSet>

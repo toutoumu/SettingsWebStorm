@@ -1,0 +1,54 @@
+<templateSet group="wechatCode-js">
+  <template name="wxBehavior" value="let behavior = Behavior({&#10;    properties: {&#10;        content: String,&#10;        img: String,&#10;    },&#10;    data:{&#10;    },&#10;    attached:function(){&#10;    &#10;    },&#10;    methods:{&#10;    }&#10;})&#10;export { behavior }" description="微信Behavior" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="wxSetData" value="this.setData({&#10;    $end$&#10;})" description="微信更新数据" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="wxTriggerEvent" value="this.triggerEvent('$event$', {$end$}, {})" description="微信触发自定义事件" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="event" expression="" defaultValue="&quot;event&quot;" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="wxBehaviors" value="behaviors" description="属性: behaviors: [$behaviors$]" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="wxProperties" value="properties" description="属性: properties : { }" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="wxComponent" value="Component" description="属性: Component : { }" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="wxSlot" value="options: {&#10;        // 启用slots&#10;        multipleSlots: true,&#10;    }" description="微信--启用插槽slots" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="wxExternalClasses" value="externalClasses:[]" description="微信--组件外部样式" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="wxOptions" value="options: {&#10;        multipleSlots: true,&#10;    }" description="微信options属性" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_CLASS" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+</templateSet>
