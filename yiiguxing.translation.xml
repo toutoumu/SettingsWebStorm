@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="async" />
       <item value="from" />
       <item value="社区" />
       <item value="街道" />
@@ -53,12 +54,11 @@
       <item value="advantage" />
       <item value="Week" />
       <item value="Weekend" />
-      <item value="registion" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="91" />
-        <entry key="ENGLISH" value="92" />
+        <entry key="CHINESE" value="92" />
+        <entry key="ENGLISH" value="93" />
         <entry key="CATALAN" value="1" />
         <entry key="ESPERANTO" value="2" />
         <entry key="VIETNAMESE" value="1" />
@@ -66,6 +66,6 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1615269848206" />
+    <option name="lastTrimTime" value="1616468525696" />
   </component>
 </application>
