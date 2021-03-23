@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="defer" />
       <item value="async" />
       <item value="from" />
       <item value="社区" />
@@ -53,12 +54,11 @@
       <item value="高级" />
       <item value="advantage" />
       <item value="Week" />
-      <item value="Weekend" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="92" />
-        <entry key="ENGLISH" value="93" />
+        <entry key="CHINESE" value="93" />
+        <entry key="ENGLISH" value="94" />
         <entry key="CATALAN" value="1" />
         <entry key="ESPERANTO" value="2" />
         <entry key="VIETNAMESE" value="1" />
