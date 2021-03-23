@@ -1,0 +1,15 @@
+<application>
+  <component name="libraryTable">
+    <library name="zwjsbridge" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__assets.zjzwfw.gov.cn_assets_ZWJSBridge_1.0.1_zwjsbridge.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__assets.zjzwfw.gov.cn_assets_ZWJSBridge_1.0.1_zwjsbridge.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+  </component>
+</application>
