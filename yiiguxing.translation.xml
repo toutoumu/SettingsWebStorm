@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="解密" />
       <item value="semi" />
       <item value="comma-dangle" />
       <item value="dangle" />
@@ -53,11 +54,10 @@
       <item value="slice" />
       <item value="operational" />
       <item value="操作" />
-      <item value="reduce" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="101" />
+        <entry key="CHINESE" value="102" />
         <entry key="ENGLISH" value="102" />
         <entry key="CATALAN" value="1" />
         <entry key="ESPERANTO" value="2" />
