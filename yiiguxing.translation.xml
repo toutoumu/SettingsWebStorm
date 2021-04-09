@@ -4,6 +4,10 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="comma-dangle" />
+      <item value="dangle" />
+      <item value="semi" />
+      <item value="trailing Comma" />
       <item value="latitude" />
       <item value="defer" />
       <item value="async" />
@@ -50,22 +54,19 @@
       <item value="operational" />
       <item value="操作" />
       <item value="reduce" />
-      <item value="减" />
-      <item value="condition" />
-      <item value="高级" />
-      <item value="advantage" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="94" />
-        <entry key="ENGLISH" value="95" />
+        <entry key="CHINESE" value="101" />
+        <entry key="ENGLISH" value="101" />
         <entry key="CATALAN" value="1" />
         <entry key="ESPERANTO" value="2" />
+        <entry key="ITALIAN" value="1" />
         <entry key="VIETNAMESE" value="1" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1616468525696" />
+    <option name="lastTrimTime" value="1617931227728" />
   </component>
 </application>
