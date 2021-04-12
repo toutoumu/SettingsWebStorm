@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="信访趋势" />
       <item value="radio" />
       <item value="percentage" />
       <item value="百分比" />
@@ -53,11 +54,10 @@
       <item value="leader Residence" />
       <item value="nation" />
       <item value="political Status Name" />
-      <item value="Residence" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="117" />
+        <entry key="CHINESE" value="118" />
         <entry key="ENGLISH" value="118" />
         <entry key="CATALAN" value="1" />
         <entry key="ESPERANTO" value="2" />
