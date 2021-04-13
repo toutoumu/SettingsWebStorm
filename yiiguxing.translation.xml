@@ -4,11 +4,11 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="percentage" />
       <item value="走访" />
       <item value="letter" />
       <item value="信访趋势" />
       <item value="radio" />
-      <item value="percentage" />
       <item value="百分比" />
       <item value="比例" />
       <item value="operational" />
