@@ -4,6 +4,8 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="reversal" />
+      <item value="翻转" />
       <item value="operational" />
       <item value="操作" />
       <item value="percentage" />
@@ -52,13 +54,11 @@
       <item value="我的" />
       <item value="census Register" />
       <item value="leader Address" />
-      <item value="leader Birth Place" />
-      <item value="leader Residence" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="120" />
-        <entry key="ENGLISH" value="120" />
+        <entry key="CHINESE" value="121" />
+        <entry key="ENGLISH" value="121" />
         <entry key="CATALAN" value="1" />
         <entry key="ESPERANTO" value="2" />
         <entry key="ITALIAN" value="1" />
