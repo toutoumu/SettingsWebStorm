@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="方式" />
       <item value="purpose" />
       <item value="目的" />
       <item value="reversal" />
@@ -53,11 +54,10 @@
       <item value="驳回" />
       <item value="审批" />
       <item value="managment" />
-      <item value="我的" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="122" />
+        <entry key="CHINESE" value="123" />
         <entry key="ENGLISH" value="123" />
         <entry key="CATALAN" value="1" />
         <entry key="ESPERANTO" value="2" />
