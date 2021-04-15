@@ -1,16 +1,5 @@
 <application>
   <component name="libraryTable">
-    <library name="paho-mqtt" type="javaScript">
-      <properties>
-        <sourceFilesUrls>
-          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_paho-mqtt_1.0.1_mqttws31.js" />
-        </sourceFilesUrls>
-      </properties>
-      <CLASSES>
-        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_paho-mqtt_1.0.1_mqttws31.js" />
-      </CLASSES>
-      <SOURCES />
-    </library>
     <library name="zwjsbridge" type="javaScript">
       <properties>
         <sourceFilesUrls>
