@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="超期预警" />
       <item value="等级" />
       <item value="人" />
       <item value="重要" />
@@ -53,12 +54,11 @@
       <item value="evaluated" />
       <item value="重新分配" />
       <item value="consult" />
-      <item value="转让" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="127" />
-        <entry key="ENGLISH" value="127" />
+        <entry key="CHINESE" value="128" />
+        <entry key="ENGLISH" value="128" />
         <entry key="CATALAN" value="1" />
         <entry key="ESPERANTO" value="2" />
         <entry key="ITALIAN" value="1" />
