@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="year Ratio" />
       <item value="vertical" />
       <item value="垂直" />
       <item value="第三方" />
@@ -53,12 +54,11 @@
       <item value="社区" />
       <item value="街道" />
       <item value="统计" />
-      <item value="分配" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="130" />
-        <entry key="ENGLISH" value="130" />
+        <entry key="ENGLISH" value="131" />
         <entry key="CATALAN" value="1" />
         <entry key="ESPERANTO" value="2" />
         <entry key="ITALIAN" value="1" />
