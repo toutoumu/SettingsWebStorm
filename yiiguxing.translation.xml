@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="流程" />
       <item value="处理流程" />
       <item value="date" />
       <item value="year Ratio" />
@@ -53,12 +54,11 @@
       <item value="defer" />
       <item value="async" />
       <item value="from" />
-      <item value="社区" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="132" />
-        <entry key="ENGLISH" value="132" />
+        <entry key="CHINESE" value="133" />
+        <entry key="ENGLISH" value="133" />
         <entry key="CATALAN" value="1" />
         <entry key="ESPERANTO" value="2" />
         <entry key="ITALIAN" value="1" />
