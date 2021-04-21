@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="忽略" />
       <item value="preview" />
       <item value="预览" />
       <item value="流程" />
@@ -53,11 +54,10 @@
       <item value="dangle" />
       <item value="trailing Comma" />
       <item value="latitude" />
-      <item value="defer" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="134" />
+        <entry key="CHINESE" value="135" />
         <entry key="ENGLISH" value="135" />
         <entry key="CATALAN" value="1" />
         <entry key="ESPERANTO" value="2" />
