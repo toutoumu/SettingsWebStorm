@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="诚信" />
       <item value="&lt;el-option" />
       <item value="Customer Dialog" />
       <item value="handler" />
@@ -53,12 +54,11 @@
       <item value="attention" />
       <item value="脱敏" />
       <item value="解密" />
-      <item value="semi" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="137" />
-        <entry key="ENGLISH" value="137" />
+        <entry key="CHINESE" value="139" />
+        <entry key="ENGLISH" value="139" />
         <entry key="DANISH" value="1" />
         <entry key="CATALAN" value="1" />
         <entry key="ESPERANTO" value="2" />
