@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="家庭" />
       <item value="敏感" />
       <item value="Soft Ref LRU Policy MS Per MB" />
       <item value="Reserved Code Cache Size" />
@@ -53,7 +54,6 @@
       <item value="审批" />
       <item value="managment" />
       <item value="我的" />
-      <item value="census Register" />
     </histories>
     <option name="languageScores">
       <map>
