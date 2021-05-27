@@ -4,6 +4,8 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="statistical" />
+      <item value="统计" />
       <item value="percent" />
       <item value="detail" />
       <item value="家庭" />
@@ -43,7 +45,6 @@
       <item value="from" />
       <item value="社区" />
       <item value="街道" />
-      <item value="统计" />
       <item value="分配" />
       <item value="evaluated" />
       <item value="重新分配" />
@@ -53,7 +54,6 @@
       <item value="解散" />
       <item value="头像" />
       <item value="驳回" />
-      <item value="审批" />
     </histories>
     <option name="languageScores">
       <map>
@@ -67,7 +67,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1621301664857" />
+    <option name="lastTrimTime" value="1622095759363" />
   </component>
   <component name="Settings">
     <option name="translateDocumentation" value="true" />
