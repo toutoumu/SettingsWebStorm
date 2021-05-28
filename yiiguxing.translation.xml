@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="报表" />
       <item value="月份" />
       <item value="mounth" />
       <item value="statistical" />
@@ -53,7 +54,6 @@
       <item value="consult" />
       <item value="转让" />
       <item value="disband" />
-      <item value="解散" />
     </histories>
     <option name="languageScores">
       <map>
