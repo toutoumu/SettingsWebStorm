@@ -7,6 +7,7 @@
       <mapping pattern="dollar_text" type="PLAIN_TEXT" />
       <mapping pattern="Flutter 常用命令.md" type="PLAIN_TEXT" />
       <mapping pattern="mock" type="PLAIN_TEXT" />
+      <mapping pattern=".env.staging" type="PLAIN_TEXT" />
       <mapping pattern="信鸽集成" type="PLAIN_TEXT" />
       <mapping pattern="emoji_text" type="PLAIN_TEXT" />
       <mapping pattern=".env.dev" type="PLAIN_TEXT" />
