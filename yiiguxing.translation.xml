@@ -4,6 +4,9 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="场地" />
+      <item value="calculate" />
+      <item value="计算" />
       <item value="staging" />
       <item value="报表" />
       <item value="月份" />
@@ -51,9 +54,6 @@
       <item value="街道" />
       <item value="分配" />
       <item value="evaluated" />
-      <item value="重新分配" />
-      <item value="consult" />
-      <item value="转让" />
     </histories>
     <option name="languageScores">
       <map>
