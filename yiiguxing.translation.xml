@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="单位" />
       <item value="error Overlay" />
       <item value="时序" />
       <item value="logic" />
@@ -53,11 +54,10 @@
       <item value="特殊人员" />
       <item value="重点人员" />
       <item value="监测推送" />
-      <item value="overview Situation" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="127" />
+        <entry key="CHINESE" value="128" />
         <entry key="ENGLISH" value="128" />
         <entry key="ARABIC" value="1" />
         <entry key="CATALAN" value="1" />
