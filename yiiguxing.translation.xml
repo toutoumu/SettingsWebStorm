@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="date Region" />
       <item value="stage" />
       <item value="staging" />
       <item value="级别" />
@@ -53,12 +54,11 @@
       <item value="operational" />
       <item value="操作" />
       <item value="menu" />
-      <item value="预测研判" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="135" />
-        <entry key="ENGLISH" value="136" />
+        <entry key="CHINESE" value="136" />
+        <entry key="ENGLISH" value="137" />
         <entry key="ARABIC" value="1" />
         <entry key="CATALAN" value="1" />
         <entry key="ESPERANTO" value="2" />

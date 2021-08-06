@@ -1,12 +1,12 @@
 <templateSet group="Vue-Script">
-  <template name="vdispatch" value="this.$store.dispatch('$actionName$', $payload$)" description="store dispatch" toReformat="false" toShortenFQNames="true">
+  <template name="vdispatch" value="this.$store.dispatch('$actionName$', $payload$)" description="store dispatch 操作" toReformat="false" toShortenFQNames="true">
     <variable name="actionName" expression="" defaultValue="&quot;actionName&quot;" alwaysStopAt="true" />
     <variable name="payload" expression="" defaultValue="&quot;payload&quot;" alwaysStopAt="true" />
     <context>
       <option name="VUE_COMPONENT_DESCRIPTOR" value="true" />
     </context>
   </template>
-  <template name="vcommit" value="this.$store.commit('$mutationName$', $payload$)" description="store commit" toReformat="false" toShortenFQNames="true">
+  <template name="vcommit" value="this.$store.commit('$mutationName$', $payload$)" description="store commit 操作" toReformat="false" toShortenFQNames="true">
     <variable name="mutationName" expression="" defaultValue="&quot;mutationName&quot;" alwaysStopAt="true" />
     <variable name="payload" expression="" defaultValue="&quot;payload&quot;" alwaysStopAt="true" />
     <context>
@@ -34,6 +34,11 @@
     <variable name="param" expression="" defaultValue="&quot;:参数名称(必须要冒号)&quot;" alwaysStopAt="true" />
     <variable name="name" expression="" defaultValue="&quot;路由名称&quot;" alwaysStopAt="true" />
     <variable name="component" expression="" defaultValue="&quot;组件名称&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="VUE_COMPONENT_DESCRIPTOR" value="true" />
+    </context>
+  </template>
+  <template name="elementDateRange日期范围限制" value="pickerStartOptions: {&#10;        disabledDate: (time) =&gt; {&#10;          if (this.form.endDate) {&#10;            // 禁用大于结束时间的日期&#10;            return time.getTime() &gt; dayjs(this.form.endDate).toDate().getTime()&#10;          }&#10;        },&#10;      },&#10;      pickerEndOptions: {&#10;        disabledDate: (time) =&gt; {&#10;          let curDate = (new Date()).getTime()&#10;          let day = 24 * 3600 * 1000&#10;          let dateRegion = curDate + day&#10;          if (this.form.startDate) {&#10;            // 如果小于开始时间, 或者大于今天+day,那么禁用&#10;            return time.getTime() &lt; dayjs(this.form.startDate).toDate().getTime() || time.getTime() &gt; dateRegion&#10;          }&#10;        },&#10;      }," description="日期起始结束时间限制放到data下" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="VUE_COMPONENT_DESCRIPTOR" value="true" />
     </context>
