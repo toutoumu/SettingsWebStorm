@@ -4,7 +4,7 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
-    <item value="work Appraisal" />
+      <item value="work Appraisal" />
       <item value="工作考核" />
       <item value="checkpoint" />
       <item value="date Region" />
@@ -81,7 +81,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1627281315544" />
+    <option name="lastTrimTime" value="1628494496042" />
   </component>
   <component name="Settings">
     <option name="translateDocumentation" value="true" />

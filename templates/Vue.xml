@@ -2,6 +2,7 @@
   <template name="vbase" value="&lt;template&gt;&#10; &lt;div&gt;&#10;    $END$&#10; &lt;/div&gt;&#10;&lt;/template&gt;&#10;&#10;&lt;script&gt;&#10; export default {&#10;  name:'$Name$'&#10; }&#10;&lt;/script&gt;&#10;&#10;&lt;style lang=&quot;$Stylus$&quot; scoped&gt;&#10;&#10;&lt;/style&gt;" description="Vue single file component" toReformat="true" toShortenFQNames="true">
     <variable name="Name" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
     <variable name="Stylus" expression="" defaultValue="&quot;scss&quot;" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="vaction" value="actions: {&#10; $actionName$({commit}, $payload$) {&#10;  commit($updateValue$, $payload$);&#10; }&#10;}" description="Vuex action" toReformat="true" toShortenFQNames="true">
     <variable name="actionName" expression="" defaultValue="&quot;action名称&quot;" alwaysStopAt="true" />
