@@ -4,6 +4,9 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="special" />
+      <item value="特殊" />
+      <item value="特色" />
       <item value="Reserved Code Cache Size" />
       <item value="common" />
       <item value="immediate" />
@@ -51,14 +54,11 @@
       <item value="报表" />
       <item value="月份" />
       <item value="mounth" />
-      <item value="statistical" />
-      <item value="统计" />
-      <item value="percent" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="138" />
-        <entry key="ENGLISH" value="139" />
+        <entry key="CHINESE" value="141" />
+        <entry key="ENGLISH" value="141" />
         <entry key="ARABIC" value="1" />
         <entry key="CATALAN" value="1" />
         <entry key="ESPERANTO" value="2" />
