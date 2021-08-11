@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="版权" />
       <item value="quote Props" />
       <item value="语言" />
       <item value="special" />
@@ -53,11 +54,10 @@
       <item value="场地" />
       <item value="calculate" />
       <item value="计算" />
-      <item value="报表" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="142" />
+        <entry key="CHINESE" value="143" />
         <entry key="ENGLISH" value="143" />
         <entry key="ARABIC" value="1" />
         <entry key="CATALAN" value="1" />
