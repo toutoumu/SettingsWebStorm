@@ -1,6 +1,4 @@
 <code_scheme name="SquareAndroid" version="173">
-  <option name="USE_SAME_INDENTS" value="true" />
-  <option name="IGNORE_SAME_INDENTS_FOR_LANGUAGES" value="true" />
   <option name="OTHER_INDENT_OPTIONS">
     <value>
       <option name="CONTINUATION_INDENT_SIZE" value="4" />
@@ -20,12 +18,12 @@
     </value>
   </option>
   <option name="RIGHT_MARGIN" value="125" />
-  <option name="LINE_COMMENT_AT_FIRST_COLUMN" value="false" />
-  <option name="BLOCK_COMMENT_AT_FIRST_COLUMN" value="false" />
   <option name="KEEP_LINE_BREAKS" value="false" />
   <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
   <option name="KEEP_BLANK_LINES_IN_DECLARATIONS" value="1" />
   <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
+  <option name="LINE_COMMENT_AT_FIRST_COLUMN" value="false" />
+  <option name="BLOCK_COMMENT_AT_FIRST_COLUMN" value="false" />
   <option name="KEEP_BLANK_LINES_BEFORE_RBRACE" value="0" />
   <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
   <option name="ALIGN_MULTILINE_FOR" value="false" />
@@ -69,7 +67,6 @@
     <option name="HTML_KEEP_BLANK_LINES" value="1" />
     <option name="HTML_ALIGN_TEXT" value="true" />
     <option name="HTML_SPACE_INSIDE_EMPTY_TAG" value="true" />
-    <option name="HTML_DO_NOT_INDENT_CHILDREN_OF" value="html,body,thead,tbody,tfoot,script" />
   </HTMLCodeStyleSettings>
   <JSCodeStyleSettings version="0">
     <option name="USE_SEMICOLON_AFTER_STATEMENT" value="false" />
@@ -113,9 +110,6 @@
   <TypeScriptCodeStyleSettings version="0">
     <option name="REFORMAT_C_STYLE_COMMENTS" value="true" />
   </TypeScriptCodeStyleSettings>
-  <XML>
-    <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
-  </XML>
   <editorconfig>
     <option name="ENABLED" value="false" />
   </editorconfig>
