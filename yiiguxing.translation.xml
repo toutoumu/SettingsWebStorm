@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="COACH" />
       <item value="Appairse" />
       <item value="greenyellow" />
       <item value="integral" />
@@ -53,12 +54,11 @@
       <item value="事件消息模拟" />
       <item value="ECONNREFUSED" />
       <item value="deprecate" />
-      <item value="tb ai expert" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="146" />
-        <entry key="ENGLISH" value="146" />
+        <entry key="ENGLISH" value="147" />
         <entry key="ARABIC" value="1" />
         <entry key="FINNISH" value="1" />
         <entry key="CATALAN" value="1" />
