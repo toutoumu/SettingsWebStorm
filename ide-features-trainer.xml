@@ -1,6 +1,11 @@
 <application>
   <component name="LangManager">
     <option name="languageName" value="JavaScript" />
+    <option name="languageToProjectMap">
+      <map>
+        <entry key="JavaScript" value="$APPLICATION_CONFIG_DIR$/demo/LearnJavaScriptProject" />
+      </map>
+    </option>
   </component>
   <component name="LessonStateBase">
     <option name="map">
