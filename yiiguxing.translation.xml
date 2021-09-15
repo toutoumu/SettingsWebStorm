@@ -4,13 +4,20 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="integrity" />
+      <item value="accuracy" />
+      <item value="pretime" />
+      <item value="rank" />
+      <item value="systime" />
+      <item value="precision" />
+      <item value="forceout" />
+      <item value="overall" />
       <item value="sense" />
       <item value="liaison" />
       <item value="liaisonref" />
       <item value="stressref" />
       <item value="toneref" />
       <item value="senses" />
-      <item value="overall" />
       <item value="All Kinds of Faces Written by Annette Carruthers" />
       <item value="cancle" />
       <item value="produce" />
@@ -47,23 +54,17 @@
       <item value="weather" />
       <item value="天气" />
       <item value="curve" />
-      <item value="wheat" />
-      <item value="heat" />
-      <item value="grains" />
-      <item value="stage" />
-      <item value="staging" />
-      <item value="级别" />
-      <item value="等级" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="160" />
-        <entry key="ENGLISH" value="161" />
+        <entry key="CHINESE" value="166" />
+        <entry key="ENGLISH" value="167" />
         <entry key="ARABIC" value="1" />
-        <entry key="DANISH" value="1" />
+        <entry key="DANISH" value="2" />
         <entry key="FRENCH" value="2" />
         <entry key="FINNISH" value="1" />
         <entry key="CATALAN" value="1" />
+        <entry key="LATVIAN" value="1" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ESPERANTO" value="4" />
         <entry key="ITALIAN" value="1" />
