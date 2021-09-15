@@ -4,6 +4,12 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="sense" />
+      <item value="liaison" />
+      <item value="liaisonref" />
+      <item value="stressref" />
+      <item value="toneref" />
+      <item value="senses" />
       <item value="overall" />
       <item value="All Kinds of Faces Written by Annette Carruthers" />
       <item value="cancle" />
@@ -48,22 +54,18 @@
       <item value="staging" />
       <item value="级别" />
       <item value="等级" />
-      <item value="Repeat" />
-      <item value="repeat访问" />
-      <item value="Template Manage" />
-      <item value="Template Manager" />
-      <item value="模板" />
-      <item value="时序" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="156" />
-        <entry key="ENGLISH" value="157" />
+        <entry key="CHINESE" value="160" />
+        <entry key="ENGLISH" value="161" />
         <entry key="ARABIC" value="1" />
+        <entry key="DANISH" value="1" />
+        <entry key="FRENCH" value="2" />
         <entry key="FINNISH" value="1" />
         <entry key="CATALAN" value="1" />
         <entry key="ROMANIAN" value="1" />
-        <entry key="ESPERANTO" value="2" />
+        <entry key="ESPERANTO" value="4" />
         <entry key="ITALIAN" value="1" />
         <entry key="VIETNAMESE" value="1" />
       </map>
@@ -73,6 +75,11 @@
     <option name="lastTrimTime" value="1631366632303" />
   </component>
   <component name="Settings">
+    <option name="googleTranslateSettings">
+      <google-translate>
+        <option name="useTranslateGoogleCom" value="true" />
+      </google-translate>
+    </option>
     <option name="translateDocumentation" value="true" />
   </component>
 </application>
