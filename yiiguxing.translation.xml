@@ -4,6 +4,8 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="realm Id" />
+      <item value="tenant Id" />
       <item value="待办" />
       <item value="level Data" />
       <item value="integrity" />
@@ -52,13 +54,11 @@
       <item value="date Region" />
       <item value="warning" />
       <item value="警告" />
-      <item value="humidity" />
-      <item value="weather" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="168" />
-        <entry key="ENGLISH" value="168" />
+        <entry key="CHINESE" value="169" />
+        <entry key="ENGLISH" value="170" />
         <entry key="ARABIC" value="1" />
         <entry key="DANISH" value="2" />
         <entry key="FRENCH" value="2" />
