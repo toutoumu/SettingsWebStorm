@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="橙色" />
       <item value="account Id" />
       <item value="realm Id" />
       <item value="tenant Id" />
@@ -53,11 +54,10 @@
       <item value="工作考核" />
       <item value="checkpoint" />
       <item value="date Region" />
-      <item value="warning" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="171" />
+        <entry key="CHINESE" value="172" />
         <entry key="ENGLISH" value="172" />
         <entry key="ARABIC" value="1" />
         <entry key="DANISH" value="2" />
@@ -76,11 +76,6 @@
     <option name="lastTrimTime" value="1635127614175" />
   </component>
   <component name="Settings">
-    <option name="googleTranslateSettings">
-      <google-translate>
-        <option name="useTranslateGoogleCom" value="true" />
-      </google-translate>
-    </option>
     <option name="translateDocumentation" value="true" />
   </component>
 </application>
