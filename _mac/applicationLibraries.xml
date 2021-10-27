@@ -1,5 +1,16 @@
 <application>
   <component name="libraryTable">
+    <library name="chivox" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_sdk.cloud.chivox.com_chivoxsdk-js_v6.0_chivox.min.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_sdk.cloud.chivox.com_chivoxsdk-js_v6.0_chivox.min.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
     <library name="zwjsbridge" type="javaScript">
       <properties>
         <sourceFilesUrls>
