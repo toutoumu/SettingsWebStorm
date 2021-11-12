@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="人员分析" />
       <item value="橙色" />
       <item value="account Id" />
       <item value="realm Id" />
@@ -53,12 +54,11 @@
       <item value="work Appraisal" />
       <item value="工作考核" />
       <item value="checkpoint" />
-      <item value="date Region" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="172" />
-        <entry key="ENGLISH" value="172" />
+        <entry key="CHINESE" value="173" />
+        <entry key="ENGLISH" value="173" />
         <entry key="ARABIC" value="1" />
         <entry key="DANISH" value="2" />
         <entry key="FRENCH" value="2" />
