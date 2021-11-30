@@ -4,6 +4,9 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Authenticate" />
+      <item value="authenticate" />
+      <item value="认证" />
       <item value="company" />
       <item value="企业" />
       <item value="岗位" />
@@ -51,14 +54,11 @@
       <item value="special" />
       <item value="特殊" />
       <item value="特色" />
-      <item value="Reserved Code Cache Size" />
-      <item value="common" />
-      <item value="immediate" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="176" />
-        <entry key="ENGLISH" value="176" />
+        <entry key="CHINESE" value="178" />
+        <entry key="ENGLISH" value="178" />
         <entry key="ARABIC" value="1" />
         <entry key="DANISH" value="2" />
         <entry key="FRENCH" value="2" />
