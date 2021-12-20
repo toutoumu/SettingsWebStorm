@@ -4,6 +4,8 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Statistics" />
+      <item value="Ledger" />
       <item value="Authenticate" />
       <item value="authenticate" />
       <item value="认证" />
@@ -52,13 +54,11 @@
       <item value="quote Props" />
       <item value="语言" />
       <item value="special" />
-      <item value="特殊" />
-      <item value="特色" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="178" />
-        <entry key="ENGLISH" value="178" />
+        <entry key="CHINESE" value="179" />
+        <entry key="ENGLISH" value="180" />
         <entry key="ARABIC" value="1" />
         <entry key="DANISH" value="2" />
         <entry key="FRENCH" value="2" />
@@ -73,7 +73,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1639375978574" />
+    <option name="lastTrimTime" value="1639964062017" />
   </component>
   <component name="Settings">
     <option name="translateDocumentation" value="true" />
