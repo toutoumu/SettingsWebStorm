@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="oncanplay" />
       <item value="Statistics" />
       <item value="Ledger" />
       <item value="Authenticate" />
@@ -53,7 +54,6 @@
       <item value="版权" />
       <item value="quote Props" />
       <item value="语言" />
-      <item value="special" />
     </histories>
     <option name="languageScores">
       <map>
