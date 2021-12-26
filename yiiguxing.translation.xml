@@ -4,6 +4,9 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="liaisonref" />
+      <item value="toneref" />
+      <item value="tonescore" />
       <item value="oncanplay" />
       <item value="Statistics" />
       <item value="Ledger" />
@@ -30,9 +33,7 @@
       <item value="overall" />
       <item value="sense" />
       <item value="liaison" />
-      <item value="liaisonref" />
       <item value="stressref" />
-      <item value="toneref" />
       <item value="senses" />
       <item value="All Kinds of Faces Written by Annette Carruthers" />
       <item value="cancle" />
@@ -53,15 +54,14 @@
       <item value="ffffff" />
       <item value="版权" />
       <item value="quote Props" />
-      <item value="语言" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="179" />
-        <entry key="ENGLISH" value="180" />
+        <entry key="CHINESE" value="181" />
+        <entry key="ENGLISH" value="181" />
         <entry key="ARABIC" value="1" />
-        <entry key="DANISH" value="2" />
-        <entry key="FRENCH" value="2" />
+        <entry key="DANISH" value="3" />
+        <entry key="FRENCH" value="3" />
         <entry key="FINNISH" value="1" />
         <entry key="CATALAN" value="1" />
         <entry key="LATVIAN" value="1" />
