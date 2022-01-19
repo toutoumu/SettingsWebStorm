@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="booths" />
       <item value="job Fair List" />
       <item value="company" />
       <item value="job Fair Detail" />
@@ -53,12 +54,11 @@
       <item value="利用率" />
       <item value="统计分析" />
       <item value="Conditional" />
-      <item value="COACH" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="187" />
-        <entry key="ENGLISH" value="188" />
+        <entry key="CHINESE" value="188" />
+        <entry key="ENGLISH" value="189" />
         <entry key="ARABIC" value="1" />
         <entry key="DANISH" value="3" />
         <entry key="FRENCH" value="4" />
