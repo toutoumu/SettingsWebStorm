@@ -39,6 +39,11 @@
   </component>
   <component name="TextDiffSettings">
     <option name="PLACES_MAP">
+      <entry key="Default">
+        <PlaceSettings>
+          <option name="IGNORE_POLICY" value="IGNORE_WHITESPACES_CHUNKS" />
+        </PlaceSettings>
+      </entry>
       <entry key="DirDiff">
         <PlaceSettings>
           <option name="IGNORE_POLICY" value="IGNORE_WHITESPACES_CHUNKS" />
@@ -55,6 +60,11 @@
           <option name="IGNORE_POLICY" value="IGNORE_WHITESPACES_CHUNKS" />
         </PlaceSettings>
       </entry>
+    </option>
+    <option name="SHARED_SETTINGS">
+      <SharedSettings>
+        <option name="ENABLE_ALIGNING_CHANGES_MODE" value="true" />
+      </SharedSettings>
     </option>
   </component>
 </application>
