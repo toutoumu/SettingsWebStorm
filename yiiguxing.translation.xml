@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="工作经验" />
       <item value="自我评价" />
       <item value="意向" />
       <item value="秘密" />
@@ -53,12 +54,11 @@
       <item value="sense" />
       <item value="liaison" />
       <item value="stressref" />
-      <item value="senses" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="198" />
-        <entry key="ENGLISH" value="198" />
+        <entry key="CHINESE" value="199" />
+        <entry key="ENGLISH" value="199" />
         <entry key="ARABIC" value="1" />
         <entry key="DANISH" value="3" />
         <entry key="FRENCH" value="4" />
