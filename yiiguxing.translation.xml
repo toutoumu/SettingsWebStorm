@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="transpile Dependencies" />
       <item value="precision" />
       <item value="敏感词" />
       <item value="已有账号,去下载" />
@@ -53,12 +54,11 @@
       <item value="橙色" />
       <item value="account Id" />
       <item value="realm Id" />
-      <item value="tenant Id" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="210" />
-        <entry key="ENGLISH" value="211" />
+        <entry key="CHINESE" value="211" />
+        <entry key="ENGLISH" value="212" />
         <entry key="ARABIC" value="1" />
         <entry key="DANISH" value="3" />
         <entry key="FRENCH" value="4" />
@@ -73,7 +73,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1646098461245" />
+    <option name="lastTrimTime" value="1646536174210" />
   </component>
   <component name="Settings">
     <option name="translateDocumentation" value="true" />
