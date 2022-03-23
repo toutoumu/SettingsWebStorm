@@ -13,6 +13,7 @@
       <mapping pattern="mock" type="PLAIN_TEXT" />
       <mapping pattern="registration" type="PLAIN_TEXT" />
       <mapping pattern="timeline_category" type="PLAIN_TEXT" />
+      <mapping pattern=".env.zwww" type="PLAIN_TEXT" />
       <mapping pattern="Flutter 常用命令.md" type="PLAIN_TEXT" />
       <mapping pattern=".env.staging" type="PLAIN_TEXT" />
       <mapping pattern="短视频.md" type="PLAIN_TEXT" />
