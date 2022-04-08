@@ -4,6 +4,8 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="corner" />
+      <item value="角" />
       <item value="三角形" />
       <item value="cloud" />
       <item value="Directional Light" />
@@ -52,13 +54,11 @@
       <item value="民族" />
       <item value="recruit Source Type" />
       <item value="booths" />
-      <item value="job Fair List" />
-      <item value="company" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="231" />
-        <entry key="ENGLISH" value="231" />
+        <entry key="CHINESE" value="235" />
+        <entry key="ENGLISH" value="235" />
         <entry key="ARABIC" value="1" />
         <entry key="DANISH" value="3" />
         <entry key="FRENCH" value="4" />
