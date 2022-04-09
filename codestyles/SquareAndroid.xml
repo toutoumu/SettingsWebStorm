@@ -19,11 +19,11 @@
   </option>
   <option name="RIGHT_MARGIN" value="125" />
   <option name="KEEP_LINE_BREAKS" value="false" />
-  <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
   <option name="KEEP_BLANK_LINES_IN_DECLARATIONS" value="1" />
   <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
   <option name="LINE_COMMENT_AT_FIRST_COLUMN" value="false" />
   <option name="BLOCK_COMMENT_AT_FIRST_COLUMN" value="false" />
+  <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
   <option name="KEEP_BLANK_LINES_BEFORE_RBRACE" value="0" />
   <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
   <option name="ALIGN_MULTILINE_FOR" value="false" />
@@ -112,6 +112,9 @@
   <TypeScriptCodeStyleSettings version="0">
     <option name="REFORMAT_C_STYLE_COMMENTS" value="true" />
   </TypeScriptCodeStyleSettings>
+  <VueCodeStyleSettings>
+    <option name="INDENT_CHILDREN_OF_TOP_LEVEL" value="template,script,style" />
+  </VueCodeStyleSettings>
   <editorconfig>
     <option name="ENABLED" value="false" />
   </editorconfig>
@@ -329,6 +332,7 @@
   <codeStyleSettings language="Vue">
     <indentOptions>
       <option name="CONTINUATION_INDENT_SIZE" value="2" />
+      <option name="USE_TAB_CHARACTER" value="true" />
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="XML">
