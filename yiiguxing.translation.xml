@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="immediate" />
       <item value="不是函数" />
       <item value="is not a function" />
       <item value="固定" />
@@ -53,12 +54,11 @@
       <item value="nature" />
       <item value="diffcult" />
       <item value="marital" />
-      <item value="political" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="249" />
-        <entry key="ENGLISH" value="249" />
+        <entry key="ENGLISH" value="250" />
         <entry key="ARABIC" value="1" />
         <entry key="DANISH" value="3" />
         <entry key="FRENCH" value="4" />
