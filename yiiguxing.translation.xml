@@ -2,8 +2,9 @@
   <component name="AppStorage">
     <option name="newTranslationDialogX" value="520" />
     <option name="newTranslationDialogY" value="383" />
-    <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="跟读记录" />
+      <item value="播放" />
       <item value="请选择国家" />
       <item value="unmake Every Source" />
       <item value="immediate" />
@@ -52,13 +53,11 @@
       <item value="语言" />
       <item value="change Origin" />
       <item value="credential" />
-      <item value="proficiency" />
-      <item value="nature" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="251" />
-        <entry key="ENGLISH" value="251" />
+        <entry key="CHINESE" value="253" />
+        <entry key="ENGLISH" value="253" />
         <entry key="ARABIC" value="1" />
         <entry key="DANISH" value="3" />
         <entry key="FRENCH" value="4" />
