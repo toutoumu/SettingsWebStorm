@@ -4,61 +4,61 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
-      <item value="验证类型错误" />
-      <item value="在线客服" />
+      <item value="提示" />
+      <item value="您未签署合同,无法使用课程功能,请签署合同后再使用" />
+      <item value="您还没有选择文件" />
+      <item value="课件上传成功" />
+      <item value="添加课件" />
+      <item value="请假成功" />
+      <item value="是否确认请假" />
+      <item value="再考虑一下" />
+      <item value="请假" />
+      <item value="该天暂无课程" />
+      <item value="学习报告" />
+      <item value="暂无课件" />
+      <item value="文件夹" />
+      <item value="ask for leave" />
+      <item value="缺" />
+      <item value="选择课件" />
+      <item value="已结束" />
+      <item value="上课中" />
+      <item value="未开始" />
+      <item value="获取课程中" />
+      <item value="我的课程" />
+      <item value="无" />
+      <item value="修改成功" />
+      <item value="female" />
+      <item value="女" />
+      <item value="男" />
+      <item value="手机" />
+      <item value="校区" />
+      <item value="性别" />
+      <item value="nickname" />
+      <item value="昵称" />
+      <item value="文件不超过1 MB" />
+      <item value="只支持" />
+      <item value="上传文件" />
+      <item value="头像" />
+      <item value="设置" />
+      <item value="兑换成功" />
+      <item value="确认" />
+      <item value="兑换课程" />
+      <item value="确认使用{data Item.point}积分兑换该课程？" />
+      <item value="Points Mall" />
       <item value="积分商城" />
-      <item value="已连续跟读" />
+      <item value="暂无积分记录" />
+      <item value="我的积分" />
+      <item value="积分记录" />
+      <item value="连续跟读3天" />
+      <item value="已获得" />
       <item value="我的荣誉" />
-      <item value="reply" />
-      <item value="回复" />
-      <item value="just recently" />
       <item value="刚刚" />
-      <item value="正在播放其他录音秀！" />
-      <item value="播放完毕" />
-      <item value="terminal" />
-      <item value="语音评论，请在手机端查看" />
-      <item value="今天" />
-      <item value="选择其他日期" />
-      <item value="本日暂无跟读记录" />
-      <item value="星期一" />
-      <item value="点击查看更多评论" />
-      <item value="评论" />
-      <item value="publish" />
-      <item value="发布" />
-      <item value="approval" />
-      <item value="赞" />
-      <item value="&lt;!--评论--&gt;" />
-      <item value="Acoins records" />
-      <item value="心愿清单" />
-      <item value="跟读记录" />
-      <item value="播放" />
-      <item value="请选择国家" />
-      <item value="unmake Every Source" />
-      <item value="immediate" />
-      <item value="不是函数" />
-      <item value="is not a function" />
-      <item value="固定" />
-      <item value="CI Compiler Count" />
-      <item value="Soft Ref LRU Policy MS Per MB" />
-      <item value="Reserved Code Cache Size" />
-      <item value="list Customer" />
-      <item value="aspectration" />
-      <item value="信任" />
-      <item value="decay" />
-      <item value="Orthographic Camera" />
-      <item value="request Animation Frame" />
-      <item value="Perspective Camera" />
-      <item value="enable Damping" />
-      <item value="intensity" />
-      <item value="Ambient Light" />
-      <item value="corner" />
-      <item value="角" />
-      <item value="三角形" />
+      <item value="正在播放其他录音秀" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="283" />
-        <entry key="ENGLISH" value="283" />
+        <entry key="CHINESE" value="346" />
+        <entry key="ENGLISH" value="346" />
         <entry key="ARABIC" value="1" />
         <entry key="DANISH" value="3" />
         <entry key="FRENCH" value="4" />
