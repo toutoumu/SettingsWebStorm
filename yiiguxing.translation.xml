@@ -2,7 +2,31 @@
   <component name="AppStorage">
     <option name="newTranslationDialogX" value="520" />
     <option name="newTranslationDialogY" value="383" />
+    <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="reply" />
+      <item value="回复" />
+      <item value="just recently" />
+      <item value="刚刚" />
+      <item value="正在播放其他录音秀！" />
+      <item value="播放完毕" />
+      <item value="terminal" />
+      <item value="语音评论，请在手机端查看" />
+      <item value="今天" />
+      <item value="选择其他日期" />
+      <item value="本日暂无跟读记录" />
+      <item value="星期一" />
+      <item value="点击查看更多评论" />
+      <item value="评论" />
+      <item value="publish" />
+      <item value="发布" />
+      <item value="approval" />
+      <item value="赞" />
+      <item value="&lt;!--评论--&gt;" />
+      <item value="已连续跟读" />
+      <item value="在线客服" />
+      <item value="Acoins records" />
+      <item value="心愿清单" />
       <item value="跟读记录" />
       <item value="播放" />
       <item value="请选择国家" />
@@ -30,34 +54,11 @@
       <item value="cloud" />
       <item value="Directional Light" />
       <item value="水滴" />
-      <item value="drip" />
-      <item value="待机" />
-      <item value="warning" />
-      <item value="警告" />
-      <item value="最近七天" />
-      <item value="Last Seven Day" />
-      <item value="lost Work" />
-      <item value="百分比" />
-      <item value="创业项目" />
-      <item value="身份" />
-      <item value="educational background" />
-      <item value="学历" />
-      <item value="就业" />
-      <item value="政策" />
-      <item value="census Register List 1" />
-      <item value="venue" />
-      <item value="transpile Dependencies" />
-      <item value="precision" />
-      <item value="敏感词" />
-      <item value="已有账号,去下载" />
-      <item value="语言" />
-      <item value="change Origin" />
-      <item value="credential" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="253" />
-        <entry key="ENGLISH" value="253" />
+        <entry key="CHINESE" value="278" />
+        <entry key="ENGLISH" value="278" />
         <entry key="ARABIC" value="1" />
         <entry key="DANISH" value="3" />
         <entry key="FRENCH" value="4" />
