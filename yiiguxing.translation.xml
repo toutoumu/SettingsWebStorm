@@ -4,6 +4,16 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="已完成" />
+      <item value="节" />
+      <item value="本课程共" />
+      <item value="考勤统计" />
+      <item value="活跃度" />
+      <item value="initiative" />
+      <item value="ethusiasm" />
+      <item value="学习报告" />
+      <item value="首页" />
+      <item value="我的课程" />
       <item value="提示" />
       <item value="您未签署合同,无法使用课程功能,请签署合同后再使用" />
       <item value="您还没有选择文件" />
@@ -14,7 +24,6 @@
       <item value="再考虑一下" />
       <item value="请假" />
       <item value="该天暂无课程" />
-      <item value="学习报告" />
       <item value="暂无课件" />
       <item value="文件夹" />
       <item value="ask for leave" />
@@ -24,7 +33,6 @@
       <item value="上课中" />
       <item value="未开始" />
       <item value="获取课程中" />
-      <item value="我的课程" />
       <item value="无" />
       <item value="修改成功" />
       <item value="female" />
@@ -46,19 +54,11 @@
       <item value="确认使用{data Item.point}积分兑换该课程？" />
       <item value="Points Mall" />
       <item value="积分商城" />
-      <item value="暂无积分记录" />
-      <item value="我的积分" />
-      <item value="积分记录" />
-      <item value="连续跟读3天" />
-      <item value="已获得" />
-      <item value="我的荣誉" />
-      <item value="刚刚" />
-      <item value="正在播放其他录音秀" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="346" />
-        <entry key="ENGLISH" value="346" />
+        <entry key="CHINESE" value="356" />
+        <entry key="ENGLISH" value="356" />
         <entry key="ARABIC" value="1" />
         <entry key="DANISH" value="3" />
         <entry key="FRENCH" value="4" />
@@ -66,6 +66,7 @@
         <entry key="CATALAN" value="1" />
         <entry key="LATVIAN" value="1" />
         <entry key="ROMANIAN" value="1" />
+        <entry key="ZULU" value="1" />
         <entry key="ESPERANTO" value="4" />
         <entry key="ITALIAN" value="1" />
         <entry key="VIETNAMESE" value="1" />
