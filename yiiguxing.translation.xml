@@ -4,6 +4,9 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Perspective Camera" />
+      <item value="Orthographic Camera" />
+      <item value="Stereo Camera" />
       <item value="机台名称" />
       <item value="alarm" />
       <item value="报警" />
@@ -51,14 +54,11 @@
       <item value="无" />
       <item value="修改成功" />
       <item value="female" />
-      <item value="女" />
-      <item value="男" />
-      <item value="手机" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="372" />
-        <entry key="ENGLISH" value="372" />
+        <entry key="CHINESE" value="374" />
+        <entry key="ENGLISH" value="375" />
         <entry key="ARABIC" value="1" />
         <entry key="DANISH" value="3" />
         <entry key="FRENCH" value="4" />
