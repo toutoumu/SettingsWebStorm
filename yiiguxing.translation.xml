@@ -4,6 +4,9 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="enable Pan" />
+      <item value="enable Zoom" />
+      <item value="enable Damping" />
       <item value="Mesh Basic Material" />
       <item value="房子" />
       <item value="Perspective Camera" />
@@ -51,14 +54,11 @@
       <item value="选择课件" />
       <item value="已结束" />
       <item value="上课中" />
-      <item value="未开始" />
-      <item value="获取课程中" />
-      <item value="无" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="375" />
-        <entry key="ENGLISH" value="376" />
+        <entry key="CHINESE" value="378" />
+        <entry key="ENGLISH" value="379" />
         <entry key="ARABIC" value="1" />
         <entry key="DANISH" value="3" />
         <entry key="FRENCH" value="4" />
