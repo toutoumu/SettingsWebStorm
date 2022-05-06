@@ -4,6 +4,10 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Directional Light" />
+      <item value="Ambient Light" />
+      <item value="Orthographic Camera" />
+      <item value="Perspective Camera" />
       <item value="qualification Level" />
       <item value="account Attribute" />
       <item value="该学生已有线下班级" />
@@ -50,15 +54,11 @@
       <item value="校区" />
       <item value="全部内容" />
       <item value="Audio" />
-      <item value="录音秀" />
-      <item value="infinite" />
-      <item value="hellow" />
-      <item value="word" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="431" />
-        <entry key="ENGLISH" value="432" />
+        <entry key="CHINESE" value="436" />
+        <entry key="ENGLISH" value="437" />
         <entry key="ARABIC" value="1" />
         <entry key="DANISH" value="3" />
         <entry key="FRENCH" value="4" />
