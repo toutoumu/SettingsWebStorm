@@ -4,6 +4,8 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="qualification Level" />
+      <item value="account Attribute" />
       <item value="该学生已有线下班级" />
       <item value="已选择0人（还可以选10人）" />
       <item value="选择学员" />
@@ -52,13 +54,11 @@
       <item value="infinite" />
       <item value="hellow" />
       <item value="word" />
-      <item value="segment" />
-      <item value="Hemisphere Light" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="430" />
-        <entry key="ENGLISH" value="430" />
+        <entry key="CHINESE" value="431" />
+        <entry key="ENGLISH" value="432" />
         <entry key="ARABIC" value="1" />
         <entry key="DANISH" value="3" />
         <entry key="FRENCH" value="4" />
