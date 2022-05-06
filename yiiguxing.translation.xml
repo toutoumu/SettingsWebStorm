@@ -4,8 +4,15 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
-      <item value="Directional Light" />
+      <item value="intersect Objects" />
+      <item value="raycaster" />
+      <item value="intersects" />
       <item value="Ambient Light" />
+      <item value="Spot Light" />
+      <item value="cylinder Geometry" />
+      <item value="sphere Geometry" />
+      <item value="cube" />
+      <item value="Directional Light" />
       <item value="Orthographic Camera" />
       <item value="Perspective Camera" />
       <item value="qualification Level" />
@@ -47,18 +54,11 @@
       <item value="未点评" />
       <item value="点评" />
       <item value="approval" />
-      <item value="点击查看更多评论" />
-      <item value="赞" />
-      <item value="请对此条录音进行评级" />
-      <item value="class" />
-      <item value="校区" />
-      <item value="全部内容" />
-      <item value="Audio" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="436" />
-        <entry key="ENGLISH" value="437" />
+        <entry key="CHINESE" value="444" />
+        <entry key="ENGLISH" value="445" />
         <entry key="ARABIC" value="1" />
         <entry key="DANISH" value="3" />
         <entry key="FRENCH" value="4" />
