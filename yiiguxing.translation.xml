@@ -4,6 +4,8 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="球体" />
+      <item value="Circle Geometry" />
       <item value="roughness" />
       <item value="intensity" />
       <item value="Box Geometry" />
@@ -52,13 +54,11 @@
       <item value="先完成上一关才能学习" />
       <item value="关卡列表" />
       <item value="开始学习" />
-      <item value="绘本详情" />
-      <item value="just time" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="460" />
-        <entry key="ENGLISH" value="461" />
+        <entry key="CHINESE" value="462" />
+        <entry key="ENGLISH" value="462" />
         <entry key="ARABIC" value="2" />
         <entry key="DANISH" value="3" />
         <entry key="FRENCH" value="4" />
