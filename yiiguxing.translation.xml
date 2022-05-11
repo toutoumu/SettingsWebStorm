@@ -4,6 +4,8 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="circle" />
+      <item value="圆" />
       <item value="立方体" />
       <item value="装饰" />
       <item value="球体" />
@@ -52,13 +54,11 @@
       <item value="词汇" />
       <item value="总关数" />
       <item value="绘本没有关卡" />
-      <item value="我知道了" />
-      <item value="先完成上一关才能学习" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="464" />
-        <entry key="ENGLISH" value="464" />
+        <entry key="CHINESE" value="466" />
+        <entry key="ENGLISH" value="466" />
         <entry key="ARABIC" value="2" />
         <entry key="DANISH" value="3" />
         <entry key="FRENCH" value="4" />
