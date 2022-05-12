@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Perspective Camera" />
       <item value="circle" />
       <item value="圆" />
       <item value="立方体" />
@@ -31,7 +32,6 @@
       <item value="cylinder Geometry" />
       <item value="sphere Geometry" />
       <item value="Directional Light" />
-      <item value="Perspective Camera" />
       <item value="qualification Level" />
       <item value="account Attribute" />
       <item value="该学生已有线下班级" />
@@ -58,7 +58,7 @@
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="466" />
-        <entry key="ENGLISH" value="466" />
+        <entry key="ENGLISH" value="467" />
         <entry key="ARABIC" value="2" />
         <entry key="DANISH" value="3" />
         <entry key="FRENCH" value="4" />
