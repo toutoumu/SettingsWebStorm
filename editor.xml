@@ -11,7 +11,6 @@
     <option name="JAVADOC_INFO_DELAY" value="500" />
     <option name="COMPLETION_CASE_SENSITIVE" value="2" />
     <option name="SELECT_AUTOPOPUP_SUGGESTIONS_BY_CHARS" value="true" />
-    <option name="SHOW_FULL_SIGNATURES_IN_PARAMETER_INFO" value="true" />
   </component>
   <component name="DaemonCodeAnalyzerSettings">
     <option name="AUTOREPARSE_DELAY" value="100" />
