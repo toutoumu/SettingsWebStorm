@@ -4,6 +4,14 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="种粮信用分" />
+      <item value="种粮行为" />
+      <item value="种粮户" />
+      <item value="种植面积" />
+      <item value="劳动合同" />
+      <item value="合同" />
+      <item value="statistical" />
+      <item value="统计" />
       <item value="Directional Light" />
       <item value="Spot Light" />
       <item value="tourus" />
@@ -46,19 +54,11 @@
       <item value="请输入学生评价" />
       <item value="提交成功" />
       <item value="整体表现得分" />
-      <item value="学生" />
-      <item value="只能查看当前日期或之前的班级数据" />
-      <item value="搜索学生" />
-      <item value="该学生今天表现如何？" />
-      <item value="确认将该学生移出班级？" />
-      <item value="暂无学生" />
-      <item value="暂无班级" />
-      <item value="线下班级" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="473" />
-        <entry key="ENGLISH" value="474" />
+        <entry key="CHINESE" value="481" />
+        <entry key="ENGLISH" value="481" />
         <entry key="ARABIC" value="2" />
         <entry key="DANISH" value="3" />
         <entry key="FRENCH" value="4" />
