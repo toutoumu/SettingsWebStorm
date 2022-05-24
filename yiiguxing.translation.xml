@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="执行率" />
       <item value="district" />
       <item value="roughness" />
       <item value="metalness" />
@@ -53,11 +54,10 @@
       <item value="qualification Level" />
       <item value="account Attribute" />
       <item value="该学生已有线下班级" />
-      <item value="已选择0人（还可以选10人）" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="489" />
+        <entry key="CHINESE" value="490" />
         <entry key="ENGLISH" value="490" />
         <entry key="ARABIC" value="2" />
         <entry key="DANISH" value="3" />
