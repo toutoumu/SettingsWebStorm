@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Condition" />
       <item value="Dailog" />
       <item value="precision" />
       <item value="执行率" />
@@ -53,12 +54,11 @@
       <item value="Ambient Light" />
       <item value="cylinder Geometry" />
       <item value="sphere Geometry" />
-      <item value="qualification Level" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="491" />
-        <entry key="ENGLISH" value="491" />
+        <entry key="ENGLISH" value="492" />
         <entry key="ARABIC" value="2" />
         <entry key="DANISH" value="3" />
         <entry key="FRENCH" value="4" />
