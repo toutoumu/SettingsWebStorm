@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="国际化" />
       <item value="segment" />
       <item value="slash" />
       <item value="normal" />
@@ -53,11 +54,10 @@
       <item value="装饰" />
       <item value="球体" />
       <item value="Circle Geometry" />
-      <item value="intensity" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="506" />
+        <entry key="CHINESE" value="507" />
         <entry key="ENGLISH" value="507" />
         <entry key="ARABIC" value="2" />
         <entry key="DANISH" value="3" />
