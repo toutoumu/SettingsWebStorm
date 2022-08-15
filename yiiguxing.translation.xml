@@ -4,6 +4,8 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="参考" />
+      <item value="项目" />
       <item value="阳性" />
       <item value="prescription" />
       <item value="处方" />
@@ -52,13 +54,11 @@
       <item value="委托权限" />
       <item value="Condition" />
       <item value="Dailog" />
-      <item value="执行率" />
-      <item value="district" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="534" />
-        <entry key="ENGLISH" value="534" />
+        <entry key="CHINESE" value="536" />
+        <entry key="ENGLISH" value="536" />
         <entry key="ARABIC" value="2" />
         <entry key="DANISH" value="3" />
         <entry key="FRENCH" value="5" />
