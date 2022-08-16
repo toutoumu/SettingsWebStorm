@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="药品" />
       <item value="统计" />
       <item value="收支" />
       <item value="statistics" />
@@ -14,7 +15,6 @@
       <item value="处方" />
       <item value="门诊" />
       <item value="体检报告" />
-      <item value="药品" />
       <item value="workload" />
       <item value="工作量" />
       <item value="income" />
@@ -57,8 +57,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="540" />
-        <entry key="ENGLISH" value="540" />
+        <entry key="CHINESE" value="541" />
+        <entry key="ENGLISH" value="541" />
         <entry key="ARABIC" value="2" />
         <entry key="DANISH" value="3" />
         <entry key="FRENCH" value="5" />
