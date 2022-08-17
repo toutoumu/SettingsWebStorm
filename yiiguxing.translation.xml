@@ -4,6 +4,8 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="decision" />
+      <item value="综合决策" />
       <item value="药品" />
       <item value="统计" />
       <item value="收支" />
@@ -52,13 +54,11 @@
       <item value="层板" />
       <item value="工艺" />
       <item value="precision" />
-      <item value="entrust" />
-      <item value="contract" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="541" />
-        <entry key="ENGLISH" value="541" />
+        <entry key="CHINESE" value="542" />
+        <entry key="ENGLISH" value="543" />
         <entry key="ARABIC" value="2" />
         <entry key="DANISH" value="3" />
         <entry key="FRENCH" value="5" />
