@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="shadow Blur" />
       <item value="健康" />
       <item value="医保" />
       <item value="阳性" />
@@ -53,12 +54,11 @@
       <item value="出厂价" />
       <item value="定制" />
       <item value="周长" />
-      <item value="电源开关" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="547" />
-        <entry key="ENGLISH" value="547" />
+        <entry key="ENGLISH" value="548" />
         <entry key="ARABIC" value="2" />
         <entry key="DANISH" value="3" />
         <entry key="FRENCH" value="5" />
