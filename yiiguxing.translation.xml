@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="百分比" />
       <item value="lenged" />
       <item value="bearing" />
       <item value="features" />
@@ -53,11 +54,10 @@
       <item value="国际化" />
       <item value="segment" />
       <item value="slash" />
-      <item value="normal" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="553" />
+        <entry key="CHINESE" value="554" />
         <entry key="ENGLISH" value="554" />
         <entry key="ARABIC" value="2" />
         <entry key="DANISH" value="3" />
@@ -77,7 +77,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1661133636750" />
+    <option name="lastTrimTime" value="1661736321059" />
   </component>
   <component name="Settings">
     <option name="translateDocumentation" value="true" />
