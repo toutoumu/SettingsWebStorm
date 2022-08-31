@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="larger" />
       <item value="百分比" />
       <item value="lenged" />
       <item value="bearing" />
@@ -53,12 +54,11 @@
       <item value="change Origin" />
       <item value="国际化" />
       <item value="segment" />
-      <item value="slash" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="554" />
-        <entry key="ENGLISH" value="554" />
+        <entry key="ENGLISH" value="555" />
         <entry key="ARABIC" value="2" />
         <entry key="DANISH" value="3" />
         <entry key="FRENCH" value="5" />
