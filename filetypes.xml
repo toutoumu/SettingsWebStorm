@@ -2,6 +2,9 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="attentionOneToFive" type="AUTO_DETECTED" />
+      <mapping pattern=".env.zwww" type="PLAIN_TEXT" />
+      <mapping pattern="Flutter 常用命令.md" type="PLAIN_TEXT" />
+      <mapping pattern=".env.staging" type="PLAIN_TEXT" />
       <mapping pattern="dollar_text" type="PLAIN_TEXT" />
       <mapping pattern="asdf" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
@@ -12,11 +15,8 @@
       <mapping pattern="emoji_text" type="PLAIN_TEXT" />
       <mapping pattern="mock" type="PLAIN_TEXT" />
       <mapping pattern="registration" type="PLAIN_TEXT" />
-      <mapping pattern="timeline_category" type="PLAIN_TEXT" />
-      <mapping pattern=".env.zwww" type="PLAIN_TEXT" />
-      <mapping pattern="Flutter 常用命令.md" type="PLAIN_TEXT" />
-      <mapping pattern=".env.staging" type="PLAIN_TEXT" />
       <mapping pattern="短视频.md" type="PLAIN_TEXT" />
+      <mapping pattern="timeline_category" type="PLAIN_TEXT" />
       <mapping ext="dart2" type="PLAIN_TEXT" />
       <mapping ext="bat" type="PLAIN_TEXT" />
       <mapping ext="back" type="PLAIN_TEXT" />
