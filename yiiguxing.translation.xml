@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="报警" />
       <item value="体检" />
       <item value="检验报告" />
       <item value="统计类型" />
@@ -53,7 +54,6 @@
       <item value="minifies" />
       <item value="保险理赔" />
       <item value="金融贷款" />
-      <item value="quotes" />
     </histories>
     <option name="languageScores">
       <map>
