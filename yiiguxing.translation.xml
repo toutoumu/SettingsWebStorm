@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="prescription" />
       <item value="报警" />
       <item value="体检" />
       <item value="检验报告" />
@@ -30,7 +31,6 @@
       <item value="statistics" />
       <item value="参考" />
       <item value="项目" />
-      <item value="prescription" />
       <item value="处方" />
       <item value="门诊" />
       <item value="体检报告" />
