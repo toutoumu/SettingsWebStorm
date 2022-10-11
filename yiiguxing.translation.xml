@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="convert" />
       <item value="公示" />
       <item value="保健" />
       <item value="体检" />
@@ -53,12 +54,11 @@
       <item value="病人" />
       <item value="医生" />
       <item value="客服" />
-      <item value="nurse" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="560" />
-        <entry key="ENGLISH" value="560" />
+        <entry key="ENGLISH" value="561" />
         <entry key="ARABIC" value="2" />
         <entry key="DANISH" value="3" />
         <entry key="FRENCH" value="5" />
