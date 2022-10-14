@@ -4,8 +4,9 @@
     <option name="newTranslationDialogY" value="383" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
-      <item value="病历" />
+      <item value="Out Patient" />
       <item value="门诊" />
+      <item value="病历" />
       <item value="health Manger" />
       <item value="health" />
       <item value="convert" />
@@ -53,12 +54,11 @@
       <item value="radar" />
       <item value="Count To" />
       <item value="通讯录" />
-      <item value="保健对象" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="564" />
-        <entry key="ENGLISH" value="564" />
+        <entry key="CHINESE" value="565" />
+        <entry key="ENGLISH" value="566" />
         <entry key="ARABIC" value="2" />
         <entry key="DANISH" value="3" />
         <entry key="FRENCH" value="5" />
