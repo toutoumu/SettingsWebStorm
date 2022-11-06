@@ -23,6 +23,7 @@
       <mapping ext="dart2" type="PLAIN_TEXT" />
       <mapping ext="bat" type="PLAIN_TEXT" />
       <mapping ext="back" type="PLAIN_TEXT" />
+      <mapping ext="m3u" type="PLAIN_TEXT" />
       <mapping ext="bcmap" type="PLAIN_TEXT" />
       <mapping ext="flat" type="PLAIN_TEXT" />
       <mapping pattern="*.vue.html" type="Vue.js" />
