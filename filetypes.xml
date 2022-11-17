@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="attentionOneToFive" type="AUTO_DETECTED" />
+      <mapping pattern="2" type="AUTO_DETECTED" />
       <mapping pattern=".env.zwww" type="PLAIN_TEXT" />
       <mapping pattern="Flutter 常用命令.md" type="PLAIN_TEXT" />
       <mapping pattern=".env.staging" type="PLAIN_TEXT" />
