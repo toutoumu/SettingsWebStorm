@@ -1,0 +1,6 @@
+<application>
+  <component name="Uniapp Support">
+    <option name="hbuilderInstallPath" value="/Applications/HBuilderX.app" />
+    <option name="weixinDevtoolPath" value="/Applications/wechatwebdevtools.app" />
+  </component>
+</application>
