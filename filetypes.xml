@@ -23,6 +23,7 @@
       <mapping pattern="timeline_category" type="PLAIN_TEXT" />
       <mapping ext="m3u8" type="PLAIN_TEXT" />
       <mapping ext="dart2" type="PLAIN_TEXT" />
+      <mapping ext="ttf" type="PLAIN_TEXT" />
       <mapping ext="bat" type="PLAIN_TEXT" />
       <mapping ext="back" type="PLAIN_TEXT" />
       <mapping ext="m3u" type="PLAIN_TEXT" />
