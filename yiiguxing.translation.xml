@@ -88,4 +88,12 @@
     <option name="translateDocumentation" value="true" />
     <option name="translator" value="BAIDU" />
   </component>
+  <component name="Translation.Cache">
+    <option name="lastTrimTime" value="1675648229909" />
+  </component>
+  <component name="Translation.States">
+    <histories>
+      <item value="统计" />
+    </histories>
+  </component>
 </application>
