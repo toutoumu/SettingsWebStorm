@@ -13,6 +13,7 @@
       <mapping pattern=".env.tab1" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern="at_text" type="PLAIN_TEXT" />
+      <mapping pattern=".env.zhjctest" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="信鸽集成" type="PLAIN_TEXT" />
       <mapping pattern=".env.dev" type="PLAIN_TEXT" />
