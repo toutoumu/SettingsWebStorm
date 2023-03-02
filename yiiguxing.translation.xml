@@ -93,6 +93,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="nomarl" />
       <item value="统计" />
     </histories>
   </component>
